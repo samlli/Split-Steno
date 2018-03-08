@@ -1,6 +1,6 @@
-update=3/1/2018 3:01:23 PM
+update=3/8/2018 2:01:52 PM
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -29,9 +29,9 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=C:/Users/YAN/Documents/pcb_design/custom_components/custom_components
-LibName2=C:/Users/YAN/Documents/pcb_design/kicad_lib_tmk-master/keyboard_parts
-LibName3=C:/Users/YAN/Documents/pcb_design/WS2812B.pretty-master/Schematic-Symbol/ws2812b
+LibName1=C:/Users/YAN/Documents/pcb_design/kicad_lib_tmk-master/keyboard_parts
+LibName2=C:/Users/YAN/Documents/pcb_design/WS2812B.pretty-master/Schematic-Symbol/ws2812b
+LibName3=C:/Users/YAN/Documents/pcb_design/ProMicroKiCad-master/promicro_library/promicro
 LibName4=power
 LibName5=device
 LibName6=switches

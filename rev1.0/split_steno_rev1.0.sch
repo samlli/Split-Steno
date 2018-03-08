@@ -1,7 +1,7 @@
 EESchema Schematic File Version 2
-LIBS:custom_components
 LIBS:keyboard_parts
 LIBS:ws2812b
+LIBS:promicro
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -50,36 +50,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ProMicro U0
-U 1 1 5A95DA52
-P 7750 1800
-F 0 "U0" H 7750 2750 60  0000 C CNN
-F 1 "ProMicro" H 7750 1250 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" H 7850 750 60  0001 C CNN
-F 3 "" H 7850 750 60  0000 C CNN
-	1    7750 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW_PUSH SW1
+L SW_PUSH SW0
 U 1 1 5A95DE78
-P 9050 1250
-F 0 "SW1" H 9200 1360 50  0000 C CNN
-F 1 "SW_PUSH" H 9050 1170 50  0000 C CNN
-F 2 "Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117" H 9050 1250 60  0001 C CNN
-F 3 "" H 9050 1250 60  0000 C CNN
-	1    9050 1250
+P 8850 1250
+F 0 "SW0" H 9000 1360 50  0000 C CNN
+F 1 "SW_PUSH" H 8850 1170 50  0000 C CNN
+F 2 "Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117" H 8850 1250 60  0001 C CNN
+F 3 "" H 8850 1250 60  0000 C CNN
+	1    8850 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR01
 U 1 1 5A95DEC7
-P 9450 1250
-F 0 "#PWR01" H 9450 1000 50  0001 C CNN
-F 1 "GND" H 9450 1100 50  0000 C CNN
-F 2 "" H 9450 1250 50  0001 C CNN
-F 3 "" H 9450 1250 50  0001 C CNN
-	1    9450 1250
+P 9150 1250
+F 0 "#PWR01" H 9150 1000 50  0001 C CNN
+F 1 "GND" H 9150 1100 50  0000 C CNN
+F 2 "" H 9150 1250 50  0001 C CNN
+F 3 "" H 9150 1250 50  0001 C CNN
+	1    9150 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -440,7 +429,7 @@ U 1 1 5A960CD3
 P 4650 3600
 F 0 "K18" H 4600 3600 60  0000 C CNN
 F 1 "KEYSW" H 4650 3500 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_200H-dual" H 4650 3600 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_200H-dual-nosilk" H 4650 3600 60  0001 C CNN
 F 3 "" H 4650 3600 60  0000 C CNN
 	1    4650 3600
 	1    0    0    -1  
@@ -495,128 +484,122 @@ U 1 1 5A960D03
 P 2650 3600
 F 0 "K16" H 2600 3600 60  0000 C CNN
 F 1 "KEYSW" H 2650 3500 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_200H-dual" H 2650 3600 60  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_200H-dual-nosilk" H 2650 3600 60  0001 C CNN
 F 3 "" H 2650 3600 60  0000 C CNN
 	1    2650 3600
 	1    0    0    -1  
 $EndComp
 Text Label 6250 1550 0    60   ~ 0
-row0
+r0
 Text Label 6250 2250 0    60   ~ 0
-row1
+r1
 Text Label 6250 2950 0    60   ~ 0
-row2
+r2
 Text Label 6250 4000 0    60   ~ 0
-row3
+r3
 Text Label 2000 900  0    60   ~ 0
-col0
+c0
 Text Label 2950 900  0    60   ~ 0
-col1
+c1
 Text Label 3950 900  0    60   ~ 0
-col2
+c2
 Text Label 4950 900  0    60   ~ 0
-col3
+c3
 Text Label 5950 900  0    60   ~ 0
-col4
-Text Label 6900 1650 2    60   ~ 0
-col0
-Text Label 6900 1950 2    60   ~ 0
-col2
-Text Label 6900 2050 2    60   ~ 0
-col3
-Text Label 6900 2150 2    60   ~ 0
-col4
-Text Label 8600 1450 0    60   ~ 0
-row0
-Text Label 8600 1550 0    60   ~ 0
-row1
-Text Label 8600 1650 0    60   ~ 0
-row2
-Text Label 8600 1750 0    60   ~ 0
-row3
-Text Label 6900 1850 2    60   ~ 0
-col1
-NoConn ~ 8450 1050
+c4
+Text Label 7050 1750 2    60   ~ 0
+c0
+Text Label 8450 1450 0    60   ~ 0
+c2
+Text Label 8450 1550 0    60   ~ 0
+c3
+Text Label 8450 1650 0    60   ~ 0
+c4
+Text Label 8450 1750 0    60   ~ 0
+r0
+Text Label 7050 1950 2    60   ~ 0
+r1
+Text Label 7050 2050 2    60   ~ 0
+r2
+Text Label 7050 2150 2    60   ~ 0
+r3
+Text Label 7050 1850 2    60   ~ 0
+c1
 $Comp
 L GND #PWR02
 U 1 1 5A9AAC49
-P 8600 1150
-F 0 "#PWR02" H 8600 900 50  0001 C CNN
-F 1 "GND" H 8600 1000 50  0000 C CNN
-F 2 "" H 8600 1150 50  0001 C CNN
-F 3 "" H 8600 1150 50  0001 C CNN
-	1    8600 1150
+P 8450 1150
+F 0 "#PWR02" H 8450 900 50  0001 C CNN
+F 1 "GND" H 8450 1000 50  0000 C CNN
+F 2 "" H 8450 1150 50  0001 C CNN
+F 3 "" H 8450 1150 50  0001 C CNN
+	1    8450 1150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L VCC #PWR03
 U 1 1 5A9AB03B
-P 8600 1350
-F 0 "#PWR03" H 8600 1200 50  0001 C CNN
-F 1 "VCC" H 8600 1500 50  0000 C CNN
-F 2 "" H 8600 1350 50  0001 C CNN
-F 3 "" H 8600 1350 50  0001 C CNN
-	1    8600 1350
+P 8450 1350
+F 0 "#PWR03" H 8450 1200 50  0001 C CNN
+F 1 "VCC" H 8450 1500 50  0000 C CNN
+F 2 "" H 8450 1350 50  0001 C CNN
+F 3 "" H 8450 1350 50  0001 C CNN
+	1    8450 1350
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR04
 U 1 1 5A9AB617
-P 6900 1250
-F 0 "#PWR04" H 6900 1000 50  0001 C CNN
-F 1 "GND" H 6900 1100 50  0000 C CNN
-F 2 "" H 6900 1250 50  0001 C CNN
-F 3 "" H 6900 1250 50  0001 C CNN
-	1    6900 1250
+P 7050 1250
+F 0 "#PWR04" H 7050 1000 50  0001 C CNN
+F 1 "GND" H 7050 1100 50  0000 C CNN
+F 2 "" H 7050 1250 50  0001 C CNN
+F 3 "" H 7050 1250 50  0001 C CNN
+	1    7050 1250
 	0    1    1    0   
 $EndComp
-NoConn ~ 8450 1850
-NoConn ~ 8450 1950
-NoConn ~ 8450 2050
-NoConn ~ 7050 1050
-NoConn ~ 7050 1150
 $Comp
 L GND #PWR05
 U 1 1 5A98E990
-P 10400 2650
-F 0 "#PWR05" H 10400 2400 50  0001 C CNN
-F 1 "GND" H 10400 2500 50  0000 C CNN
-F 2 "" H 10400 2650 50  0001 C CNN
-F 3 "" H 10400 2650 50  0001 C CNN
-	1    10400 2650
-	0    -1   -1   0   
+P 9250 2600
+F 0 "#PWR05" H 9250 2350 50  0001 C CNN
+F 1 "GND" H 9250 2450 50  0000 C CNN
+F 2 "" H 9250 2600 50  0001 C CNN
+F 3 "" H 9250 2600 50  0001 C CNN
+	1    9250 2600
+	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR06
 U 1 1 5A98EC7D
-P 10400 2400
-F 0 "#PWR06" H 10400 2250 50  0001 C CNN
-F 1 "VCC" H 10400 2550 50  0000 C CNN
-F 2 "" H 10400 2400 50  0001 C CNN
-F 3 "" H 10400 2400 50  0001 C CNN
-	1    10400 2400
+P 9950 1900
+F 0 "#PWR06" H 9950 1750 50  0001 C CNN
+F 1 "VCC" H 9950 2050 50  0000 C CNN
+F 2 "" H 9950 1900 50  0001 C CNN
+F 3 "" H 9950 1900 50  0001 C CNN
+	1    9950 1900
 	0    1    1    0   
 $EndComp
 $Comp
 L R R2
 U 1 1 5A98F1B9
-P 10150 2150
-F 0 "R2" V 10230 2150 50  0000 C CNN
-F 1 "4.7k" V 10150 2150 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" H 10150 2150 60  0001 C CNN
-F 3 "" H 10150 2150 60  0000 C CNN
-	1    10150 2150
+P 9950 2150
+F 0 "R2" V 10030 2150 50  0000 C CNN
+F 1 "4.7k" V 9950 2150 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 9950 2150 60  0001 C CNN
+F 3 "" H 9950 2150 60  0000 C CNN
+	1    9950 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R1
 U 1 1 5A98F2A4
-P 9850 2150
-F 0 "R1" V 9930 2150 50  0000 C CNN
-F 1 "4.7k" V 9850 2150 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" H 9850 2150 60  0001 C CNN
-F 3 "" H 9850 2150 60  0000 C CNN
-	1    9850 2150
+P 9750 2050
+F 0 "R1" V 9830 2050 50  0000 C CNN
+F 1 "4.7k" V 9750 2050 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 9750 2050 60  0001 C CNN
+F 3 "" H 9750 2050 60  0000 C CNN
+	1    9750 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -625,21 +608,21 @@ U 1 1 5A9B3BE5
 P 9450 2200
 F 0 "J0" H 9400 2280 50  0000 C CNN
 F 1 "Audio-Jack-4" H 9570 1830 50  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A-dual" H 9700 2300 50  0001 C CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 9700 2300 50  0001 C CNN
 F 3 "" H 9700 2300 50  0001 C CNN
 	1    9450 2200
 	1    0    0    -1  
 $EndComp
-Text Label 10450 1950 0    60   ~ 0
-data0
-Text Label 10450 1850 0    60   ~ 0
-data1
-Text Label 6900 1450 2    60   ~ 0
-data0
-Text Label 6900 1550 2    60   ~ 0
-data1
+Text Label 10050 2400 0    60   ~ 0
+d0
+Text Label 10050 2300 0    60   ~ 0
+d1
+Text Label 7050 1450 2    60   ~ 0
+d0
+Text Label 7050 1550 2    60   ~ 0
+d1
 Text Label 7850 3000 1    60   ~ 0
-rgb0
+d2
 $Comp
 L R R0
 U 1 1 5A98D003
@@ -651,10 +634,8 @@ F 3 "" H 7850 3250 60  0000 C CNN
 	1    7850 3250
 	-1   0    0    1   
 $EndComp
-Text Label 8600 2150 0    60   ~ 0
-rgb0
-Wire Wire Line
-	9350 1250 9450 1250
+Text Label 7050 1650 2    60   ~ 0
+d2
 Wire Wire Line
 	3250 1950 3250 1850
 Wire Wire Line
@@ -844,76 +825,13 @@ Connection ~ 5250 1550
 Connection ~ 5250 2250
 Connection ~ 5250 2950
 Connection ~ 5250 4000
-Wire Wire Line
-	8450 1450 8600 1450
-Wire Wire Line
-	8450 1550 8600 1550
-Wire Wire Line
-	8450 1650 8600 1650
-Wire Wire Line
-	8450 1750 8600 1750
-Wire Wire Line
-	6900 1650 7050 1650
-Wire Wire Line
-	6900 1850 7050 1850
-Wire Wire Line
-	6900 1950 7050 1950
-Wire Wire Line
-	6900 2050 7050 2050
-Wire Wire Line
-	6900 2150 7050 2150
-Wire Wire Line
-	8450 1150 8600 1150
-Wire Wire Line
-	8450 1350 8600 1350
-Wire Wire Line
-	6900 1250 7050 1250
-Wire Wire Line
-	6900 1350 7050 1350
-Wire Wire Line
-	8450 1250 8750 1250
-Wire Wire Line
-	9250 2600 9250 2650
-Wire Wire Line
-	9250 2650 10400 2650
-Wire Wire Line
-	9650 2400 10400 2400
-Connection ~ 9850 2400
-Connection ~ 10150 2400
-Wire Wire Line
-	9650 2300 9750 2300
-Wire Wire Line
-	9750 2300 9750 1900
-Wire Wire Line
-	9750 1900 10450 1900
-Wire Wire Line
-	9650 2200 9700 2200
-Wire Wire Line
-	9700 2200 9700 1850
-Wire Wire Line
-	9700 1850 10450 1850
-Wire Wire Line
-	10150 1850 10150 1900
-Connection ~ 10150 1850
-Wire Wire Line
-	10450 1900 10450 1950
-Connection ~ 9850 1900
-Wire Wire Line
-	6900 1450 7050 1450
-Wire Wire Line
-	6900 1550 7050 1550
-Wire Wire Line
-	8450 2150 8600 2150
-NoConn ~ 7050 1750
-Wire Wire Line
-	6900 1350 6900 1250
 $Comp
 L CP C0
 U 1 1 5AA06AA7
 P 7200 3200
 F 0 "C0" H 7225 3300 50  0000 L CNN
 F 1 "CP" H 7225 3100 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 7238 3050 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 7238 3050 50  0001 C CNN
 F 3 "" H 7200 3200 50  0001 C CNN
 	1    7200 3200
 	1    0    0    -1  
@@ -942,4 +860,46 @@ F 3 "" H 7200 3350 50  0001 C CNN
 $EndComp
 Text Label 7850 3500 0    60   ~ 0
 dout
+Text Label 8450 1050 0    60   ~ 0
+raw
+Text Label 8450 1850 0    60   ~ 0
+sclk
+Text Label 8450 1950 0    60   ~ 0
+miso
+Text Label 8450 2050 0    60   ~ 0
+mosi
+Text Label 8450 2150 0    60   ~ 0
+pwm
+Text Label 7050 1050 2    60   ~ 0
+tx
+Text Label 7050 1150 2    60   ~ 0
+rx
+Wire Wire Line
+	7050 1350 7050 1250
+Wire Wire Line
+	9650 2200 9650 1800
+Wire Wire Line
+	9650 1800 9950 1800
+Wire Wire Line
+	9950 1800 9950 1900
+Connection ~ 9750 1800
+Wire Wire Line
+	9650 2300 10050 2300
+Wire Wire Line
+	9650 2400 10050 2400
+Connection ~ 9750 2300
+Connection ~ 9950 2400
+Wire Wire Line
+	8450 1250 8550 1250
+$Comp
+L ProMicro U0
+U 1 1 5AA1FC9D
+P 7750 1800
+F 0 "U0" H 7750 2750 60  0000 C CNN
+F 1 "ProMicro" H 7750 1250 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" H 7850 750 60  0001 C CNN
+F 3 "" H 7850 750 60  0000 C CNN
+	1    7750 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
