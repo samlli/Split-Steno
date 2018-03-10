@@ -4,15 +4,7 @@
 
 Open source PCB design for a mirrored keyboard with the layout below:
 
-    ----------------
-    |  |  |  |  |  |
-    ----------------
-    |  |  |  |  |  |
-    ----------------
-    |  |  |  |  |  |
-    ----------------
-          |  |  |  |
-          ----------
+![layout](images/layout.png?raw=true "layout")
 
 **rev1.0 Features:**
 

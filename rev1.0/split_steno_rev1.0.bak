@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:custom_components
 LIBS:keyboard_parts
 LIBS:ws2812b
 LIBS:promicro
@@ -898,7 +897,7 @@ U 1 1 5AA1FC9D
 P 7750 1800
 F 0 "U0" H 7750 2750 60  0000 C CNN
 F 1 "ProMicro" H 7750 1250 60  0000 C CNN
-F 2 "" H 7850 750 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" H 7850 750 60  0001 C CNN
 F 3 "" H 7850 750 60  0000 C CNN
 	1    7750 1800
 	1    0    0    -1  
