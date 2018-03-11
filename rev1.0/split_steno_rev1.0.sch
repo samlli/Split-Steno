@@ -41,7 +41,7 @@ Sheet 1 1
 Title "split_steno"
 Date "2018-02-28"
 Rev "1.0"
-Comp ""
+Comp "jtallbean"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -56,7 +56,7 @@ F 1 "SW_PUSH" H 8850 1170 50  0000 C CNN
 F 2 "lib_fp:SW_Tactile_SPST_Angled_MJTP1117" H 8850 1250 60  0001 C CNN
 F 3 "" H 8850 1250 60  0000 C CNN
 	1    8850 1250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR01
@@ -67,7 +67,7 @@ F 1 "GND" H 9150 1100 50  0000 C CNN
 F 2 "" H 9150 1250 50  0001 C CNN
 F 3 "" H 9150 1250 50  0001 C CNN
 	1    9150 1250
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L KEYSW K7
@@ -78,7 +78,7 @@ F 1 "KEYSW" H 3650 1750 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 3650 1850 60  0001 C CNN
 F 3 "" H 3650 1850 60  0000 C CNN
 	1    3650 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D7
@@ -89,7 +89,7 @@ F 1 "D" V 3400 2050 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 3250 2100 60  0001 C CNN
 F 3 "" H 3250 2100 60  0000 C CNN
 	1    3250 2100
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K8
@@ -100,7 +100,7 @@ F 1 "KEYSW" H 4650 1750 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 4650 1850 60  0001 C CNN
 F 3 "" H 4650 1850 60  0000 C CNN
 	1    4650 1850
-	1    0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L D D8
@@ -111,7 +111,7 @@ F 1 "D" V 4400 2050 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 4250 2100 60  0001 C CNN
 F 3 "" H 4250 2100 60  0000 C CNN
 	1    4250 2100
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K5
@@ -122,7 +122,7 @@ F 1 "KEYSW" H 1700 1750 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 1700 1850 60  0001 C CNN
 F 3 "" H 1700 1850 60  0000 C CNN
 	1    1700 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D5
@@ -133,7 +133,7 @@ F 1 "D" V 1450 2050 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 1300 2100 60  0001 C CNN
 F 3 "" H 1300 2100 60  0000 C CNN
 	1    1300 2100
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K9
@@ -144,7 +144,7 @@ F 1 "KEYSW" H 5650 1750 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 5650 1850 60  0001 C CNN
 F 3 "" H 5650 1850 60  0000 C CNN
 	1    5650 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D9
@@ -155,7 +155,7 @@ F 1 "D" V 5400 2050 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 5250 2100 60  0001 C CNN
 F 3 "" H 5250 2100 60  0000 C CNN
 	1    5250 2100
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K6
@@ -166,7 +166,7 @@ F 1 "KEYSW" H 2650 1750 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 2650 1850 60  0001 C CNN
 F 3 "" H 2650 1850 60  0000 C CNN
 	1    2650 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D6
@@ -177,7 +177,7 @@ F 1 "D" V 2400 2050 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 2250 2100 60  0001 C CNN
 F 3 "" H 2250 2100 60  0000 C CNN
 	1    2250 2100
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K12
@@ -188,7 +188,7 @@ F 1 "KEYSW" H 3650 2450 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 3650 2550 60  0001 C CNN
 F 3 "" H 3650 2550 60  0000 C CNN
 	1    3650 2550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D12
@@ -199,7 +199,7 @@ F 1 "D" V 3400 2750 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 3250 2800 60  0001 C CNN
 F 3 "" H 3250 2800 60  0000 C CNN
 	1    3250 2800
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K13
@@ -210,7 +210,7 @@ F 1 "KEYSW" H 4650 2450 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 4650 2550 60  0001 C CNN
 F 3 "" H 4650 2550 60  0000 C CNN
 	1    4650 2550
-	1    0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L D D13
@@ -221,7 +221,7 @@ F 1 "D" V 4400 2750 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 4250 2800 60  0001 C CNN
 F 3 "" H 4250 2800 60  0000 C CNN
 	1    4250 2800
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K10
@@ -232,7 +232,7 @@ F 1 "KEYSW" H 1700 2450 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 1700 2550 60  0001 C CNN
 F 3 "" H 1700 2550 60  0000 C CNN
 	1    1700 2550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D10
@@ -243,7 +243,7 @@ F 1 "D" V 1450 2750 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 1300 2800 60  0001 C CNN
 F 3 "" H 1300 2800 60  0000 C CNN
 	1    1300 2800
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K14
@@ -254,7 +254,7 @@ F 1 "KEYSW" H 5650 2450 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 5650 2550 60  0001 C CNN
 F 3 "" H 5650 2550 60  0000 C CNN
 	1    5650 2550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D14
@@ -265,7 +265,7 @@ F 1 "D" V 5400 2750 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 5250 2800 60  0001 C CNN
 F 3 "" H 5250 2800 60  0000 C CNN
 	1    5250 2800
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K11
@@ -276,7 +276,7 @@ F 1 "KEYSW" H 2650 2450 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 2650 2550 60  0001 C CNN
 F 3 "" H 2650 2550 60  0000 C CNN
 	1    2650 2550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D11
@@ -287,7 +287,7 @@ F 1 "D" V 2400 2750 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 2250 2800 60  0001 C CNN
 F 3 "" H 2250 2800 60  0000 C CNN
 	1    2250 2800
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K2
@@ -298,7 +298,7 @@ F 1 "KEYSW" H 3650 1050 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 3650 1150 60  0001 C CNN
 F 3 "" H 3650 1150 60  0000 C CNN
 	1    3650 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D2
@@ -309,7 +309,7 @@ F 1 "D" V 3400 1350 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 3250 1400 60  0001 C CNN
 F 3 "" H 3250 1400 60  0000 C CNN
 	1    3250 1400
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K3
@@ -320,7 +320,7 @@ F 1 "KEYSW" H 4650 1050 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 4650 1150 60  0001 C CNN
 F 3 "" H 4650 1150 60  0000 C CNN
 	1    4650 1150
-	1    0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L D D3
@@ -331,7 +331,7 @@ F 1 "D" V 4400 1350 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 4250 1400 60  0001 C CNN
 F 3 "" H 4250 1400 60  0000 C CNN
 	1    4250 1400
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K0
@@ -342,7 +342,7 @@ F 1 "KEYSW" H 1700 1050 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 1700 1150 60  0001 C CNN
 F 3 "" H 1700 1150 60  0000 C CNN
 	1    1700 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D0
@@ -353,7 +353,7 @@ F 1 "D" V 1450 1350 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 1300 1400 60  0001 C CNN
 F 3 "" H 1300 1400 60  0000 C CNN
 	1    1300 1400
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K4
@@ -364,7 +364,7 @@ F 1 "KEYSW" H 5650 1050 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 5650 1150 60  0001 C CNN
 F 3 "" H 5650 1150 60  0000 C CNN
 	1    5650 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D4
@@ -375,7 +375,7 @@ F 1 "D" V 5400 1350 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 5250 1400 60  0001 C CNN
 F 3 "" H 5250 1400 60  0000 C CNN
 	1    5250 1400
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K1
@@ -386,7 +386,7 @@ F 1 "KEYSW" H 2650 1050 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 2650 1150 60  0001 C CNN
 F 3 "" H 2650 1150 60  0000 C CNN
 	1    2650 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D1
@@ -397,7 +397,7 @@ F 1 "D" V 2400 1350 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 2250 1400 60  0001 C CNN
 F 3 "" H 2250 1400 60  0000 C CNN
 	1    2250 1400
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K17
@@ -408,7 +408,7 @@ F 1 "KEYSW" H 3650 3500 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 3650 3600 60  0001 C CNN
 F 3 "" H 3650 3600 60  0000 C CNN
 	1    3650 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D16
@@ -419,7 +419,7 @@ F 1 "D" V 3400 3800 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 3250 3850 60  0001 C CNN
 F 3 "" H 3250 3850 60  0000 C CNN
 	1    3250 3850
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K18
@@ -430,7 +430,7 @@ F 1 "KEYSW" H 4650 3500 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_200H-dual-nosilk" H 4650 3600 60  0001 C CNN
 F 3 "" H 4650 3600 60  0000 C CNN
 	1    4650 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L KEYSW K15
@@ -441,7 +441,7 @@ F 1 "KEYSW" H 1700 3500 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 1700 3600 60  0001 C CNN
 F 3 "" H 1700 3600 60  0000 C CNN
 	1    1700 3600
-	1    0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L D D15
@@ -452,7 +452,7 @@ F 1 "D" V 1450 3800 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 1300 3850 60  0001 C CNN
 F 3 "" H 1300 3850 60  0000 C CNN
 	1    1300 3850
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K19
@@ -463,7 +463,7 @@ F 1 "KEYSW" H 5650 3500 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 5650 3600 60  0001 C CNN
 F 3 "" H 5650 3600 60  0000 C CNN
 	1    5650 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D17
@@ -474,7 +474,7 @@ F 1 "D" V 5400 3800 60  0001 C CNN
 F 2 "lib_fp:Diode-dual" H 5250 3850 60  0001 C CNN
 F 3 "" H 5250 3850 60  0000 C CNN
 	1    5250 3850
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L KEYSW K16
@@ -485,7 +485,7 @@ F 1 "KEYSW" H 2650 3500 60  0001 C CNN
 F 2 "lib_fp:Hybrid_PCB_200H-dual-nosilk" H 2650 3600 60  0001 C CNN
 F 3 "" H 2650 3600 60  0000 C CNN
 	1    2650 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 6250 1550 0    60   ~ 0
 r0
@@ -505,23 +505,23 @@ Text Label 4950 900  0    60   ~ 0
 c3
 Text Label 5950 900  0    60   ~ 0
 c4
-Text Label 7050 1750 2    60   ~ 0
-c0
-Text Label 8450 1450 0    60   ~ 0
-c2
 Text Label 8450 1550 0    60   ~ 0
+c0
+Text Label 7050 1650 2    60   ~ 0
+c2
+Text Label 7050 1750 2    60   ~ 0
 c3
-Text Label 8450 1650 0    60   ~ 0
-c4
-Text Label 8450 1750 0    60   ~ 0
-r0
-Text Label 7050 1950 2    60   ~ 0
-r1
-Text Label 7050 2050 2    60   ~ 0
-r2
-Text Label 7050 2150 2    60   ~ 0
-r3
 Text Label 7050 1850 2    60   ~ 0
+c4
+Text Label 8450 1650 0    60   ~ 0
+r0
+Text Label 8450 1750 0    60   ~ 0
+r1
+Text Label 7050 1950 2    60   ~ 0
+r2
+Text Label 7050 2050 2    60   ~ 0
+r3
+Text Label 8450 1450 0    60   ~ 0
 c1
 $Comp
 L GND #PWR02
@@ -532,7 +532,7 @@ F 1 "GND" H 8450 1000 50  0000 C CNN
 F 2 "" H 8450 1150 50  0001 C CNN
 F 3 "" H 8450 1150 50  0001 C CNN
 	1    8450 1150
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L VCC #PWR03
@@ -543,7 +543,7 @@ F 1 "VCC" H 8450 1500 50  0000 C CNN
 F 2 "" H 8450 1350 50  0001 C CNN
 F 3 "" H 8450 1350 50  0001 C CNN
 	1    8450 1350
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR04
@@ -554,51 +554,40 @@ F 1 "GND" H 7050 1100 50  0000 C CNN
 F 2 "" H 7050 1250 50  0001 C CNN
 F 3 "" H 7050 1250 50  0001 C CNN
 	1    7050 1250
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 5A98E990
-P 9650 2200
-F 0 "#PWR05" H 9650 1950 50  0001 C CNN
-F 1 "GND" H 9650 2050 50  0000 C CNN
-F 2 "" H 9650 2200 50  0001 C CNN
-F 3 "" H 9650 2200 50  0001 C CNN
-	1    9650 2200
-	0    -1   -1   0
+P 9250 2600
+F 0 "#PWR05" H 9250 2350 50  0001 C CNN
+F 1 "GND" H 9250 2450 50  0000 C CNN
+F 2 "" H 9250 2600 50  0001 C CNN
+F 3 "" H 9250 2600 50  0001 C CNN
+	1    9250 2600
+	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR06
 U 1 1 5A98EC7D
-P 10050 2900
-F 0 "#PWR06" H 10050 2750 50  0001 C CNN
-F 1 "VCC" H 10050 3050 50  0000 C CNN
-F 2 "" H 10050 2900 50  0001 C CNN
-F 3 "" H 10050 2900 50  0001 C CNN
-	1    10050 2900
-	0    1    1    0
+P 10100 2400
+F 0 "#PWR06" H 10100 2250 50  0001 C CNN
+F 1 "VCC" H 10100 2550 50  0000 C CNN
+F 2 "" H 10100 2400 50  0001 C CNN
+F 3 "" H 10100 2400 50  0001 C CNN
+	1    10100 2400
+	0    1    1    0   
 $EndComp
 $Comp
-L R R2
-U 1 1 5A98F1B9
-P 9950 2650
-F 0 "R2" V 10030 2650 50  0000 C CNN
-F 1 "4.7k" V 9950 2650 50  0000 C CNN
-F 2 "lib_fp:Resistor-Hybrid" H 9950 2650 60  0001 C CNN
-F 3 "" H 9950 2650 60  0000 C CNN
-	1    9950 2650
-	1    0    0    -1
-$EndComp
-$Comp
-L R R1
+L R R0
 U 1 1 5A98F2A4
 P 9750 2550
-F 0 "R1" V 9830 2550 50  0000 C CNN
+F 0 "R0" V 9830 2550 50  0000 C CNN
 F 1 "4.7k" V 9750 2550 50  0000 C CNN
 F 2 "lib_fp:Resistor-Hybrid" H 9750 2550 60  0001 C CNN
 F 3 "" H 9750 2550 60  0000 C CNN
 	1    9750 2550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Audio-Jack-4 J0
@@ -609,11 +598,11 @@ F 1 "TRRS" H 9570 1830 50  0000 C CNN
 F 2 "lib_fp:TRRS-PJ-320A" H 9700 2300 50  0001 C CNN
 F 3 "" H 9700 2300 50  0001 C CNN
 	1    9450 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
-Text Label 10050 2400 0    60   ~ 0
-d0
 Text Label 10050 2300 0    60   ~ 0
+d0
+Text Label 10050 2200 0    60   ~ 0
 d1
 Text Label 7050 1450 2    60   ~ 0
 d0
@@ -628,16 +617,25 @@ F 1 "ProMicro" H 7750 1250 60  0000 C CNN
 F 2 "lib_fp:ArduinoProMicro" H 7850 750 60  0001 C CNN
 F 3 "" H 7850 750 60  0000 C CNN
 	1    7750 1800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 8450 1950
 NoConn ~ 8450 2050
-NoConn ~ 8450 2150
 NoConn ~ 8450 1050
 NoConn ~ 7050 1050
 NoConn ~ 7050 1150
-NoConn ~ 7050 1650
 NoConn ~ 8450 1850
+$Comp
+L R R1
+U 1 1 5A98F1B9
+P 9950 2450
+F 0 "R1" V 10030 2450 50  0000 C CNN
+F 1 "4.7k" V 9950 2450 50  0000 C CNN
+F 2 "lib_fp:Resistor-Hybrid" H 9950 2450 60  0001 C CNN
+F 3 "" H 9950 2450 60  0000 C CNN
+	1    9950 2450
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3250 1950 3250 1850
 Wire Wire Line
@@ -828,22 +826,27 @@ Connection ~ 5250 4000
 Wire Wire Line
 	7050 1350 7050 1250
 Wire Wire Line
-	9650 2300 10050 2300
-Wire Wire Line
-	9650 2400 10050 2400
-Connection ~ 9750 2300
-Connection ~ 9950 2400
-Wire Wire Line
 	8450 1250 8550 1250
 Wire Wire Line
 	4250 3600 4350 3600
 Wire Wire Line
-	9250 2600 9250 2800
+	9650 2300 10050 2300
+Connection ~ 9750 2300
 Wire Wire Line
-	9250 2800 9750 2800
+	9650 2200 10050 2200
+Connection ~ 9950 2200
 Wire Wire Line
-	9750 2800 9750 2900
+	9650 2400 9650 2800
 Wire Wire Line
-	9750 2900 10050 2900
-Connection ~ 9950 2900
+	9650 2800 9850 2800
+Wire Wire Line
+	9850 2800 9850 2700
+Wire Wire Line
+	9850 2700 10100 2700
+Connection ~ 9750 2800
+Wire Wire Line
+	10100 2700 10100 2400
+Connection ~ 9950 2700
+NoConn ~ 8450 2150
+NoConn ~ 7050 2150
 $EndSCHEMATC
