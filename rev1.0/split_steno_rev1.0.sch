@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:split_steno_rev1.0
 LIBS:keyboard_parts
 LIBS:ws2812b
 LIBS:promicro
@@ -34,7 +35,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:split_steno_rev1.0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -621,21 +621,6 @@ Text Label 7050 1450 2    60   ~ 0
 d0
 Text Label 7050 1550 2    60   ~ 0
 d1
-Text Label 7850 3000 1    60   ~ 0
-d2
-$Comp
-L R R0
-U 1 1 5A98D003
-P 7850 3250
-F 0 "R0" V 7930 3250 50  0000 C CNN
-F 1 "500" V 7850 3250 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" H 7850 3250 60  0001 C CNN
-F 3 "" H 7850 3250 60  0000 C CNN
-	1    7850 3250
-	-1   0    0    1   
-$EndComp
-Text Label 7050 1650 2    60   ~ 0
-d2
 Wire Wire Line
 	3250 1950 3250 1850
 Wire Wire Line
@@ -825,55 +810,6 @@ Connection ~ 5250 1550
 Connection ~ 5250 2250
 Connection ~ 5250 2950
 Connection ~ 5250 4000
-$Comp
-L CP C0
-U 1 1 5AA06AA7
-P 7200 3200
-F 0 "C0" H 7225 3300 50  0000 L CNN
-F 1 "CP" H 7225 3100 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 7238 3050 50  0001 C CNN
-F 3 "" H 7200 3200 50  0001 C CNN
-	1    7200 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR07
-U 1 1 5AA06BB0
-P 7200 3050
-F 0 "#PWR07" H 7200 2900 50  0001 C CNN
-F 1 "VCC" H 7200 3200 50  0000 C CNN
-F 2 "" H 7200 3050 50  0001 C CNN
-F 3 "" H 7200 3050 50  0001 C CNN
-	1    7200 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR08
-U 1 1 5AA06C4D
-P 7200 3350
-F 0 "#PWR08" H 7200 3100 50  0001 C CNN
-F 1 "GND" H 7200 3200 50  0000 C CNN
-F 2 "" H 7200 3350 50  0001 C CNN
-F 3 "" H 7200 3350 50  0001 C CNN
-	1    7200 3350
-	1    0    0    -1  
-$EndComp
-Text Label 7850 3500 0    60   ~ 0
-dout
-Text Label 8450 1050 0    60   ~ 0
-raw
-Text Label 8450 1850 0    60   ~ 0
-sclk
-Text Label 8450 1950 0    60   ~ 0
-miso
-Text Label 8450 2050 0    60   ~ 0
-mosi
-Text Label 8450 2150 0    60   ~ 0
-pwm
-Text Label 7050 1050 2    60   ~ 0
-tx
-Text Label 7050 1150 2    60   ~ 0
-rx
 Wire Wire Line
 	7050 1350 7050 1250
 Wire Wire Line
@@ -902,4 +838,12 @@ F 3 "" H 7850 750 60  0000 C CNN
 	1    7750 1800
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8450 1950
+NoConn ~ 8450 2050
+NoConn ~ 8450 2150
+NoConn ~ 8450 1050
+NoConn ~ 7050 1050
+NoConn ~ 7050 1150
+NoConn ~ 7050 1650
+NoConn ~ 8450 1850
 $EndSCHEMATC
