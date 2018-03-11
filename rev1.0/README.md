@@ -1,5 +1,13 @@
 # rev1.0
 
+**left half**
+
+![left half](images/left_rev1.0.png?raw=true "left half")
+
+**right half**
+
+![right half](images/right_rev1.0.png?raw=true "right half")
+
 **Features:**
 
 Atmega32u4 controller  
