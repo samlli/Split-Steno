@@ -10,9 +10,8 @@
 
 **Features:**
 
-Atmega32u4 controller  
-Mirrored Alps + MX compat  
-3 x 1u / 2u + 1u bottom row layout support  
-THT & SMD support  
-<100x100mm square PCB size  
-QMK firmware
+Pro Micro only  
+NO mounting holes  
+NO breakout for unused pins  
+NO silkscreen design aside from name/rev  
+First KiCad design - routing etc. not the cleanest

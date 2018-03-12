@@ -40,4 +40,10 @@ Quantities are for a single PCB, double required quantities if you build two hal
 
 ## Setup
 
-QMK
+Fancy QMK stuff goes here I guess
+
+## Why?
+
+**why is this keyboard a thing?**
+
+Good question - I'm not quite sure to be honest... when you find out, let me know please
