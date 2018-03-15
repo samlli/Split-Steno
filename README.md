@@ -1,6 +1,6 @@
 # Split Stenographic Keyboard
 
-**current version: rev1.1**
+**current working version: rev1.1**
 
 Open source PCB design for a mirrored keyboard with the layout below:
 
