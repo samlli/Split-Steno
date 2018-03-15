@@ -1,0 +1,1413 @@
+EESchema Schematic File Version 2
+LIBS:keyboard_parts
+LIBS:promicro
+LIBS:MX_Alps_Hybrids
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:split_steno_rev1.2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "split_steno"
+Date "2018-03-12"
+Rev "1.2"
+Comp "jtallbean"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ProMicro U1
+U 1 1 5AA6A30D
+P 9250 3250
+F 0 "U1" H 9250 4200 60  0000 C CNN
+F 1 "ProMicro" H 9250 2700 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" H 9350 2200 60  0001 C CNN
+F 3 "" H 9350 2200 60  0000 C CNN
+	1    9250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-4 J1
+U 1 1 5AA6B2AA
+P 8800 4300
+F 0 "J1" H 8750 4380 50  0000 C CNN
+F 1 "i2c" H 8920 3930 50  0000 C CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 9050 4400 50  0001 C CNN
+F 3 "" H 9050 4400 50  0001 C CNN
+	1    8800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R21
+U 1 1 5AA6B485
+P 9600 4450
+F 0 "R21" V 9680 4450 50  0000 C CNN
+F 1 "4.7k" V 9600 4450 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 9600 4450 60  0001 C CNN
+F 3 "" H 9600 4450 60  0000 C CNN
+	1    9600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R22
+U 1 1 5AA6B560
+P 9900 4450
+F 0 "R22" V 9980 4450 50  0000 C CNN
+F 1 "4.7k" V 9900 4450 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 9900 4450 60  0001 C CNN
+F 3 "" H 9900 4450 60  0000 C CNN
+	1    9900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW1
+U 1 1 5AA7322B
+P 10350 5150
+F 0 "SW1" H 10400 5250 50  0000 L CNN
+F 1 "reset" H 10350 5090 50  0000 C CNN
+F 2 "Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117" H 10350 5350 50  0001 C CNN
+F 3 "" H 10350 5350 50  0001 C CNN
+	1    10350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5AA73914
+P 9950 2600
+F 0 "#PWR01" H 9950 2350 50  0001 C CNN
+F 1 "GND" H 9950 2450 50  0000 C CNN
+F 2 "" H 9950 2600 50  0001 C CNN
+F 3 "" H 9950 2600 50  0001 C CNN
+	1    9950 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 5AA73AAB
+P 9950 2800
+F 0 "#PWR02" H 9950 2650 50  0001 C CNN
+F 1 "VCC" H 9950 2950 50  0000 C CNN
+F 2 "" H 9950 2800 50  0001 C CNN
+F 3 "" H 9950 2800 50  0001 C CNN
+	1    9950 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5AA73B6B
+P 8550 2750
+F 0 "#PWR03" H 8550 2500 50  0001 C CNN
+F 1 "GND" H 8550 2600 50  0000 C CNN
+F 2 "" H 8550 2750 50  0001 C CNN
+F 3 "" H 8550 2750 50  0001 C CNN
+	1    8550 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5AA74D01
+P 10550 5150
+F 0 "#PWR04" H 10550 4900 50  0001 C CNN
+F 1 "GND" H 10550 5000 50  0000 C CNN
+F 2 "" H 10550 5150 50  0001 C CNN
+F 3 "" H 10550 5150 50  0001 C CNN
+	1    10550 5150
+	0    -1   -1   0   
+$EndComp
+Text Label 9950 2900 0    60   ~ 0
+c2
+Text Label 9950 3000 0    60   ~ 0
+c1
+Text Label 9950 3100 0    60   ~ 0
+r1
+Text Label 9950 3200 0    60   ~ 0
+r2
+Text Label 9950 2700 0    60   ~ 0
+rst
+Text Label 10150 5150 2    60   ~ 0
+rst
+Text Label 8550 3100 2    60   ~ 0
+c3
+Text Label 8550 3200 2    60   ~ 0
+c4
+Text Label 8550 3300 2    60   ~ 0
+c5
+Text Label 8550 3400 2    60   ~ 0
+r3
+Text Label 8550 3500 2    60   ~ 0
+r4
+Text Label 8550 2900 2    60   ~ 0
+d1
+Text Label 8550 3000 2    60   ~ 0
+d2
+$Comp
+L GND #PWR05
+U 1 1 5AA79A32
+P 8600 4700
+F 0 "#PWR05" H 8600 4450 50  0001 C CNN
+F 1 "GND" H 8600 4550 50  0000 C CNN
+F 2 "" H 8600 4700 50  0001 C CNN
+F 3 "" H 8600 4700 50  0001 C CNN
+	1    8600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR06
+U 1 1 5AA79AC9
+P 10300 4700
+F 0 "#PWR06" H 10300 4550 50  0001 C CNN
+F 1 "VCC" H 10300 4850 50  0000 C CNN
+F 2 "" H 10300 4700 50  0001 C CNN
+F 3 "" H 10300 4700 50  0001 C CNN
+	1    10300 4700
+	0    1    1    0   
+$EndComp
+Text Label 10300 4250 0    60   ~ 0
+d1
+Text Label 10300 4150 0    60   ~ 0
+d2
+$Comp
+L Conn_02x03_Odd_Even J4
+U 1 1 5AA7FF78
+P 8550 5750
+F 0 "J4" H 8600 5950 50  0000 C CNN
+F 1 "icsp" H 8600 5550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 8550 5750 50  0001 C CNN
+F 3 "" H 8550 5750 50  0001 C CNN
+	1    8550 5750
+	1    0    0    -1  
+$EndComp
+Text Label 9950 3300 0    60   ~ 0
+sclk
+Text Label 9950 3400 0    60   ~ 0
+miso
+Text Label 9950 3500 0    60   ~ 0
+mosi
+Text Label 8850 5750 0    60   ~ 0
+mosi
+Text Label 8350 5650 2    60   ~ 0
+miso
+Text Label 8350 5750 2    60   ~ 0
+sclk
+Text Label 8350 5850 2    60   ~ 0
+rst
+$Comp
+L VCC #PWR07
+U 1 1 5AA80E8D
+P 8850 5650
+F 0 "#PWR07" H 8850 5500 50  0001 C CNN
+F 1 "VCC" H 8850 5800 50  0000 C CNN
+F 2 "" H 8850 5650 50  0001 C CNN
+F 3 "" H 8850 5650 50  0001 C CNN
+	1    8850 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5AA80EF9
+P 8850 5850
+F 0 "#PWR08" H 8850 5600 50  0001 C CNN
+F 1 "GND" H 8850 5700 50  0000 C CNN
+F 2 "" H 8850 5850 50  0001 C CNN
+F 3 "" H 8850 5850 50  0001 C CNN
+	1    8850 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x03 J3
+U 1 1 5AA81B23
+P 9750 5150
+F 0 "J3" H 9750 5350 50  0000 C CNN
+F 1 "rgb" H 9750 4950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9750 5150 50  0001 C CNN
+F 3 "" H 9750 5150 50  0001 C CNN
+	1    9750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR09
+U 1 1 5AA81F21
+P 8650 4950
+F 0 "#PWR09" H 8650 4800 50  0001 C CNN
+F 1 "VCC" H 8650 5100 50  0000 C CNN
+F 2 "" H 8650 4950 50  0001 C CNN
+F 3 "" H 8650 4950 50  0001 C CNN
+	1    8650 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5AA81F8F
+P 8650 5350
+F 0 "#PWR010" H 8650 5100 50  0001 C CNN
+F 1 "GND" H 8650 5200 50  0000 C CNN
+F 2 "" H 8650 5350 50  0001 C CNN
+F 3 "" H 8650 5350 50  0001 C CNN
+	1    8650 5350
+	0    1    1    0   
+$EndComp
+Text Label 8550 3600 2    60   ~ 0
+d3
+Text Label 8650 5150 2    60   ~ 0
+d3
+$Comp
+L Conn_01x02 J5
+U 1 1 5AA835FD
+P 9600 5700
+F 0 "J5" H 9600 5800 50  0000 C CNN
+F 1 "raw" H 9600 5500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9600 5700 50  0001 C CNN
+F 3 "" H 9600 5700 50  0001 C CNN
+	1    9600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 5AA83862
+P 9400 5800
+F 0 "#PWR011" H 9400 5550 50  0001 C CNN
+F 1 "GND" H 9400 5650 50  0000 C CNN
+F 2 "" H 9400 5800 50  0001 C CNN
+F 3 "" H 9400 5800 50  0001 C CNN
+	1    9400 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x04 J2
+U 1 1 5AA86464
+P 10350 5650
+F 0 "J2" H 10350 5850 50  0000 C CNN
+F 1 "serial" H 10350 5350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 10350 5650 50  0001 C CNN
+F 3 "" H 10350 5650 50  0001 C CNN
+	1    10350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR012
+U 1 1 5AA86658
+P 10150 5550
+F 0 "#PWR012" H 10150 5400 50  0001 C CNN
+F 1 "VCC" H 10150 5700 50  0000 C CNN
+F 2 "" H 10150 5550 50  0001 C CNN
+F 3 "" H 10150 5550 50  0001 C CNN
+	1    10150 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 5AA866CA
+P 10150 5850
+F 0 "#PWR013" H 10150 5600 50  0001 C CNN
+F 1 "GND" H 10150 5700 50  0000 C CNN
+F 2 "" H 10150 5850 50  0001 C CNN
+F 3 "" H 10150 5850 50  0001 C CNN
+	1    10150 5850
+	0    1    1    0   
+$EndComp
+Text Label 10150 5650 2    60   ~ 0
+rx
+Text Label 10150 5750 2    60   ~ 0
+tx
+Text Label 8550 2500 2    60   ~ 0
+tx
+Text Label 8550 2600 2    60   ~ 0
+rx
+$Comp
+L Conn_01x01 J6
+U 1 1 5AA876AC
+P 6150 3700
+F 0 "J6" H 6150 3800 50  0000 C CNN
+F 1 "extra" H 6150 3600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6150 3700 50  0001 C CNN
+F 3 "" H 6150 3700 50  0001 C CNN
+	1    6150 3700
+	0    1    1    0   
+$EndComp
+Text Label 9950 3600 0    60   ~ 0
+d4
+$Comp
+L C C1
+U 1 1 5AA8A780
+P 8850 5150
+F 0 "C1" H 8900 5250 50  0000 L CNN
+F 1 "100" H 8900 5050 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 8850 5150 60  0001 C CNN
+F 3 "" H 8850 5150 60  0000 C CNN
+	1    8850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 5AA8A82B
+P 9300 5150
+F 0 "R19" V 9380 5150 50  0000 C CNN
+F 1 "470" V 9300 5150 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 9300 5150 60  0001 C CNN
+F 3 "" H 9300 5150 60  0000 C CNN
+	1    9300 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5AA8EBB4
+P 3400 2450
+F 0 "R1" V 3480 2450 50  0000 C CNN
+F 1 "51" V 3400 2450 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 3400 2450 60  0001 C CNN
+F 3 "" H 3400 2450 60  0000 C CNN
+	1    3400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC547 Q1
+U 1 1 5AA8ECDD
+P 6150 2800
+F 0 "Q1" H 6350 2875 50  0000 L CNN
+F 1 "BC547" H 6350 2800 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 6350 2725 50  0001 L CIN
+F 3 "" H 6150 2800 50  0001 L CNN
+	1    6150 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 5AAA0405
+P 6350 2700
+F 0 "#PWR014" H 6350 2450 50  0001 C CNN
+F 1 "GND" H 6350 2550 50  0000 C CNN
+F 2 "" H 6350 2700 50  0001 C CNN
+F 3 "" H 6350 2700 50  0001 C CNN
+	1    6350 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR015
+U 1 1 5AAA0F2D
+P 5950 1900
+F 0 "#PWR015" H 5950 1750 50  0001 C CNN
+F 1 "VCC" H 5950 2050 50  0000 C CNN
+F 2 "" H 5950 1900 50  0001 C CNN
+F 3 "" H 5950 1900 50  0001 C CNN
+	1    5950 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R20
+U 1 1 5AAA523A
+P 6150 3250
+F 0 "R20" V 6230 3250 50  0000 C CNN
+F 1 "1k" V 6150 3250 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 6150 3250 60  0001 C CNN
+F 3 "" H 6150 3250 60  0000 C CNN
+	1    6150 3250
+	1    0    0    -1  
+$EndComp
+Text Label 6350 3500 0    60   ~ 0
+d4
+$Comp
+L +6V #PWR016
+U 1 1 5AAB3043
+P 9950 2500
+F 0 "#PWR016" H 9950 2350 50  0001 C CNN
+F 1 "+6V" H 9950 2640 50  0000 C CNN
+F 2 "" H 9950 2500 50  0001 C CNN
+F 3 "" H 9950 2500 50  0001 C CNN
+	1    9950 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L +6V #PWR017
+U 1 1 5AAB31BF
+P 9400 5700
+F 0 "#PWR017" H 9400 5550 50  0001 C CNN
+F 1 "+6V" H 9400 5840 50  0000 C CNN
+F 2 "" H 9400 5700 50  0001 C CNN
+F 3 "" H 9400 5700 50  0001 C CNN
+	1    9400 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX-1U MX1
+U 1 1 5AA74B2A
+P 3275 2125
+F 0 "MX1" H 3275 2250 60  0000 C CNN
+F 1 "MX-1U" H 3275 2175 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 3250 2100 60  0001 C CNN
+F 3 "" H 3250 2100 60  0001 C CNN
+	1    3275 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 5AA78221
+P 3125 2550
+F 0 "D1" V 2975 2500 60  0000 C CNN
+F 1 "D" V 3275 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 3125 2550 60  0001 C CNN
+F 3 "" H 3125 2550 60  0000 C CNN
+	1    3125 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 5AA818B3
+P 3925 2450
+F 0 "R2" V 4005 2450 50  0000 C CNN
+F 1 "51" V 3925 2450 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 3925 2450 60  0001 C CNN
+F 3 "" H 3925 2450 60  0000 C CNN
+	1    3925 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX2
+U 1 1 5AA818BA
+P 3800 2125
+F 0 "MX2" H 3800 2250 60  0000 C CNN
+F 1 "MX-1U" H 3800 2175 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 3775 2100 60  0001 C CNN
+F 3 "" H 3775 2100 60  0001 C CNN
+	1    3800 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D2
+U 1 1 5AA818C1
+P 3650 2550
+F 0 "D2" V 3500 2500 60  0000 C CNN
+F 1 "D" V 3800 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 3650 2550 60  0001 C CNN
+F 3 "" H 3650 2550 60  0000 C CNN
+	1    3650 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R3
+U 1 1 5AA81D7B
+P 4450 2450
+F 0 "R3" V 4530 2450 50  0000 C CNN
+F 1 "51" V 4450 2450 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 4450 2450 60  0001 C CNN
+F 3 "" H 4450 2450 60  0000 C CNN
+	1    4450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX3
+U 1 1 5AA81D82
+P 4325 2125
+F 0 "MX3" H 4325 2250 60  0000 C CNN
+F 1 "MX-1U" H 4325 2175 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 4300 2100 60  0001 C CNN
+F 3 "" H 4300 2100 60  0001 C CNN
+	1    4325 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D3
+U 1 1 5AA81D89
+P 4175 2550
+F 0 "D3" V 4025 2500 60  0000 C CNN
+F 1 "D" V 4325 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 4175 2550 60  0001 C CNN
+F 3 "" H 4175 2550 60  0000 C CNN
+	1    4175 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R4
+U 1 1 5AA81D93
+P 4975 2450
+F 0 "R4" V 5055 2450 50  0000 C CNN
+F 1 "51" V 4975 2450 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 4975 2450 60  0001 C CNN
+F 3 "" H 4975 2450 60  0000 C CNN
+	1    4975 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX4
+U 1 1 5AA81D9A
+P 4850 2125
+F 0 "MX4" H 4850 2250 60  0000 C CNN
+F 1 "MX-1U" H 4850 2175 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 4825 2100 60  0001 C CNN
+F 3 "" H 4825 2100 60  0001 C CNN
+	1    4850 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D4
+U 1 1 5AA81DA1
+P 4700 2550
+F 0 "D4" V 4550 2500 60  0000 C CNN
+F 1 "D" V 4850 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 4700 2550 60  0001 C CNN
+F 3 "" H 4700 2550 60  0000 C CNN
+	1    4700 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R5
+U 1 1 5AA82075
+P 5500 2450
+F 0 "R5" V 5580 2450 50  0000 C CNN
+F 1 "51" V 5500 2450 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 5500 2450 60  0001 C CNN
+F 3 "" H 5500 2450 60  0000 C CNN
+	1    5500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX5
+U 1 1 5AA8207C
+P 5375 2125
+F 0 "MX5" H 5375 2250 60  0000 C CNN
+F 1 "MX-1U" H 5375 2175 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 5350 2100 60  0001 C CNN
+F 3 "" H 5350 2100 60  0001 C CNN
+	1    5375 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D5
+U 1 1 5AA82083
+P 5225 2550
+F 0 "D5" V 5075 2500 60  0000 C CNN
+F 1 "D" V 5375 2500 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 5225 2550 60  0001 C CNN
+F 3 "" H 5225 2550 60  0000 C CNN
+	1    5225 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R6
+U 1 1 5AA834F7
+P 3400 3225
+F 0 "R6" V 3480 3225 50  0000 C CNN
+F 1 "51" V 3400 3225 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 3400 3225 60  0001 C CNN
+F 3 "" H 3400 3225 60  0000 C CNN
+	1    3400 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX6
+U 1 1 5AA834FE
+P 3275 2900
+F 0 "MX6" H 3275 3025 60  0000 C CNN
+F 1 "MX-1U" H 3275 2950 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 3250 2875 60  0001 C CNN
+F 3 "" H 3250 2875 60  0001 C CNN
+	1    3275 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D6
+U 1 1 5AA83505
+P 3125 3325
+F 0 "D6" V 2975 3275 60  0000 C CNN
+F 1 "D" V 3275 3275 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 3125 3325 60  0001 C CNN
+F 3 "" H 3125 3325 60  0000 C CNN
+	1    3125 3325
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R7
+U 1 1 5AA8350F
+P 3925 3225
+F 0 "R7" V 4005 3225 50  0000 C CNN
+F 1 "51" V 3925 3225 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 3925 3225 60  0001 C CNN
+F 3 "" H 3925 3225 60  0000 C CNN
+	1    3925 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX7
+U 1 1 5AA83516
+P 3800 2900
+F 0 "MX7" H 3800 3025 60  0000 C CNN
+F 1 "MX-1U" H 3800 2950 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 3775 2875 60  0001 C CNN
+F 3 "" H 3775 2875 60  0001 C CNN
+	1    3800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D7
+U 1 1 5AA8351D
+P 3650 3325
+F 0 "D7" V 3500 3275 60  0000 C CNN
+F 1 "D" V 3800 3275 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 3650 3325 60  0001 C CNN
+F 3 "" H 3650 3325 60  0000 C CNN
+	1    3650 3325
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R8
+U 1 1 5AA83527
+P 4450 3225
+F 0 "R8" V 4530 3225 50  0000 C CNN
+F 1 "51" V 4450 3225 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 4450 3225 60  0001 C CNN
+F 3 "" H 4450 3225 60  0000 C CNN
+	1    4450 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX8
+U 1 1 5AA8352E
+P 4325 2900
+F 0 "MX8" H 4325 3025 60  0000 C CNN
+F 1 "MX-1U" H 4325 2950 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 4300 2875 60  0001 C CNN
+F 3 "" H 4300 2875 60  0001 C CNN
+	1    4325 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D8
+U 1 1 5AA83535
+P 4175 3325
+F 0 "D8" V 4025 3275 60  0000 C CNN
+F 1 "D" V 4325 3275 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 4175 3325 60  0001 C CNN
+F 3 "" H 4175 3325 60  0000 C CNN
+	1    4175 3325
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R9
+U 1 1 5AA8353F
+P 4975 3225
+F 0 "R9" V 5055 3225 50  0000 C CNN
+F 1 "51" V 4975 3225 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 4975 3225 60  0001 C CNN
+F 3 "" H 4975 3225 60  0000 C CNN
+	1    4975 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX9
+U 1 1 5AA83546
+P 4850 2900
+F 0 "MX9" H 4850 3025 60  0000 C CNN
+F 1 "MX-1U" H 4850 2950 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 4825 2875 60  0001 C CNN
+F 3 "" H 4825 2875 60  0001 C CNN
+	1    4850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D9
+U 1 1 5AA8354D
+P 4700 3325
+F 0 "D9" V 4550 3275 60  0000 C CNN
+F 1 "D" V 4850 3275 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 4700 3325 60  0001 C CNN
+F 3 "" H 4700 3325 60  0000 C CNN
+	1    4700 3325
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R10
+U 1 1 5AA83557
+P 5500 3225
+F 0 "R10" V 5580 3225 50  0000 C CNN
+F 1 "51" V 5500 3225 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 5500 3225 60  0001 C CNN
+F 3 "" H 5500 3225 60  0000 C CNN
+	1    5500 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX10
+U 1 1 5AA8355E
+P 5375 2900
+F 0 "MX10" H 5375 3025 60  0000 C CNN
+F 1 "MX-1U" H 5375 2950 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 5350 2875 60  0001 C CNN
+F 3 "" H 5350 2875 60  0001 C CNN
+	1    5375 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D10
+U 1 1 5AA83565
+P 5225 3325
+F 0 "D10" V 5075 3275 60  0000 C CNN
+F 1 "D" V 5375 3275 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 5225 3325 60  0001 C CNN
+F 3 "" H 5225 3325 60  0000 C CNN
+	1    5225 3325
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R11
+U 1 1 5AA84D86
+P 3400 4000
+F 0 "R11" V 3480 4000 50  0000 C CNN
+F 1 "51" V 3400 4000 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 3400 4000 60  0001 C CNN
+F 3 "" H 3400 4000 60  0000 C CNN
+	1    3400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX11
+U 1 1 5AA84D8D
+P 3275 3675
+F 0 "MX11" H 3275 3800 60  0000 C CNN
+F 1 "MX-1U" H 3275 3725 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 3250 3650 60  0001 C CNN
+F 3 "" H 3250 3650 60  0001 C CNN
+	1    3275 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D11
+U 1 1 5AA84D94
+P 3125 4100
+F 0 "D11" V 2975 4050 60  0000 C CNN
+F 1 "D" V 3275 4050 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 3125 4100 60  0001 C CNN
+F 3 "" H 3125 4100 60  0000 C CNN
+	1    3125 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R12
+U 1 1 5AA84D9E
+P 3925 4000
+F 0 "R12" V 4005 4000 50  0000 C CNN
+F 1 "51" V 3925 4000 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 3925 4000 60  0001 C CNN
+F 3 "" H 3925 4000 60  0000 C CNN
+	1    3925 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX12
+U 1 1 5AA84DA5
+P 3800 3675
+F 0 "MX12" H 3800 3800 60  0000 C CNN
+F 1 "MX-1U" H 3800 3725 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 3775 3650 60  0001 C CNN
+F 3 "" H 3775 3650 60  0001 C CNN
+	1    3800 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D12
+U 1 1 5AA84DAC
+P 3650 4100
+F 0 "D12" V 3500 4050 60  0000 C CNN
+F 1 "D" V 3800 4050 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 3650 4100 60  0001 C CNN
+F 3 "" H 3650 4100 60  0000 C CNN
+	1    3650 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R13
+U 1 1 5AA84DB6
+P 4450 4000
+F 0 "R13" V 4530 4000 50  0000 C CNN
+F 1 "51" V 4450 4000 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 4450 4000 60  0001 C CNN
+F 3 "" H 4450 4000 60  0000 C CNN
+	1    4450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX13
+U 1 1 5AA84DBD
+P 4325 3675
+F 0 "MX13" H 4325 3800 60  0000 C CNN
+F 1 "MX-1U" H 4325 3725 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 4300 3650 60  0001 C CNN
+F 3 "" H 4300 3650 60  0001 C CNN
+	1    4325 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D13
+U 1 1 5AA84DC4
+P 4175 4100
+F 0 "D13" V 4025 4050 60  0000 C CNN
+F 1 "D" V 4325 4050 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 4175 4100 60  0001 C CNN
+F 3 "" H 4175 4100 60  0000 C CNN
+	1    4175 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R14
+U 1 1 5AA84DCE
+P 4975 4000
+F 0 "R14" V 5055 4000 50  0000 C CNN
+F 1 "51" V 4975 4000 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 4975 4000 60  0001 C CNN
+F 3 "" H 4975 4000 60  0000 C CNN
+	1    4975 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX14
+U 1 1 5AA84DD5
+P 4850 3675
+F 0 "MX14" H 4850 3800 60  0000 C CNN
+F 1 "MX-1U" H 4850 3725 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 4825 3650 60  0001 C CNN
+F 3 "" H 4825 3650 60  0001 C CNN
+	1    4850 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D14
+U 1 1 5AA84DDC
+P 4700 4100
+F 0 "D14" V 4550 4050 60  0000 C CNN
+F 1 "D" V 4850 4050 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 4700 4100 60  0001 C CNN
+F 3 "" H 4700 4100 60  0000 C CNN
+	1    4700 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R15
+U 1 1 5AA84DE6
+P 5500 4000
+F 0 "R15" V 5580 4000 50  0000 C CNN
+F 1 "51" V 5500 4000 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 5500 4000 60  0001 C CNN
+F 3 "" H 5500 4000 60  0000 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX15
+U 1 1 5AA84DED
+P 5375 3675
+F 0 "MX15" H 5375 3800 60  0000 C CNN
+F 1 "MX-1U" H 5375 3725 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 5350 3650 60  0001 C CNN
+F 3 "" H 5350 3650 60  0001 C CNN
+	1    5375 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D15
+U 1 1 5AA84DF4
+P 5225 4100
+F 0 "D15" V 5075 4050 60  0000 C CNN
+F 1 "D" V 5375 4050 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 5225 4100 60  0001 C CNN
+F 3 "" H 5225 4100 60  0000 C CNN
+	1    5225 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R16
+U 1 1 5AA84DFE
+P 3400 4775
+F 0 "R16" V 3480 4775 50  0000 C CNN
+F 1 "51" V 3400 4775 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 3400 4775 60  0001 C CNN
+F 3 "" H 3400 4775 60  0000 C CNN
+	1    3400 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX16
+U 1 1 5AA84E05
+P 3275 4450
+F 0 "MX16" H 3275 4575 60  0000 C CNN
+F 1 "MX-1U" H 3275 4500 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 3250 4425 60  0001 C CNN
+F 3 "" H 3250 4425 60  0001 C CNN
+	1    3275 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D16
+U 1 1 5AA84E0C
+P 3125 4875
+F 0 "D16" V 2975 4825 60  0000 C CNN
+F 1 "D" V 3275 4825 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 3125 4875 60  0001 C CNN
+F 3 "" H 3125 4875 60  0000 C CNN
+	1    3125 4875
+	-1   0    0    1   
+$EndComp
+$Comp
+L MX-1U MX17
+U 1 1 5AA84E1D
+P 3800 4450
+F 0 "MX17" H 3800 4575 60  0000 C CNN
+F 1 "MX-1U" H 3800 4500 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_200H-dual-LED" H 3775 4425 60  0001 C CNN
+F 3 "" H 3775 4425 60  0001 C CNN
+	1    3800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 5AA84E2E
+P 4450 4775
+F 0 "R17" V 4530 4775 50  0000 C CNN
+F 1 "51" V 4450 4775 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 4450 4775 60  0001 C CNN
+F 3 "" H 4450 4775 60  0000 C CNN
+	1    4450 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX19
+U 1 1 5AA84E4D
+P 4850 4450
+F 0 "MX19" H 4850 4575 60  0000 C CNN
+F 1 "MX-1U" H 4850 4500 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_200H-dual-LED" H 4825 4425 60  0001 C CNN
+F 3 "" H 4825 4425 60  0001 C CNN
+	1    4850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 5AA84E5E
+P 5500 4775
+F 0 "R18" V 5580 4775 50  0000 C CNN
+F 1 "51" V 5500 4775 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Hybrid" H 5500 4775 60  0001 C CNN
+F 3 "" H 5500 4775 60  0000 C CNN
+	1    5500 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U MX20
+U 1 1 5AA84E65
+P 5375 4450
+F 0 "MX20" H 5375 4575 60  0000 C CNN
+F 1 "MX-1U" H 5375 4500 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 5350 4425 60  0001 C CNN
+F 3 "" H 5350 4425 60  0001 C CNN
+	1    5375 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D18
+U 1 1 5AA84E6C
+P 5225 4875
+F 0 "D18" V 5075 4825 60  0000 C CNN
+F 1 "D" V 5375 4825 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 5225 4875 60  0001 C CNN
+F 3 "" H 5225 4875 60  0000 C CNN
+	1    5225 4875
+	-1   0    0    1   
+$EndComp
+$Comp
+L MX-1U MX18
+U 1 1 5AA84E35
+P 4325 4450
+F 0 "MX18" H 4325 4575 60  0000 C CNN
+F 1 "MX-1U" H 4325 4500 20  0000 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-LED" H 4300 4425 60  0001 C CNN
+F 3 "" H 4300 4425 60  0001 C CNN
+	1    4325 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D17
+U 1 1 5AA84E3C
+P 4175 4875
+F 0 "D17" V 4025 4825 60  0000 C CNN
+F 1 "D" V 4325 4825 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 4175 4875 60  0001 C CNN
+F 3 "" H 4175 4875 60  0000 C CNN
+	1    4175 4875
+	-1   0    0    1   
+$EndComp
+Text Label 5675 2600 0    60   ~ 0
+r1
+Text Label 5675 3375 0    60   ~ 0
+r2
+Text Label 5675 4150 0    60   ~ 0
+r3
+Text Label 5675 4925 0    60   ~ 0
+r4
+Text Label 3450 1775 0    60   ~ 0
+c1
+Text Label 3975 1775 0    60   ~ 0
+c2
+Text Label 4500 1775 0    60   ~ 0
+c3
+Text Label 5025 1775 0    60   ~ 0
+c4
+Text Label 5550 1775 0    60   ~ 0
+c5
+Wire Wire Line
+	8550 2800 8550 2700
+Connection ~ 8550 2750
+Wire Wire Line
+	9000 4500 9200 4500
+Wire Wire Line
+	9200 4500 9400 4700
+Wire Wire Line
+	9400 4700 10300 4700
+Connection ~ 9600 4700
+Connection ~ 9900 4700
+Wire Wire Line
+	9000 4300 9200 4300
+Wire Wire Line
+	9200 4300 9350 4150
+Wire Wire Line
+	9350 4150 9800 4150
+Wire Wire Line
+	9800 4150 9850 4200
+Wire Wire Line
+	9850 4200 9950 4200
+Wire Wire Line
+	9950 4200 10000 4150
+Wire Wire Line
+	10000 4150 10300 4150
+Connection ~ 9900 4200
+Wire Wire Line
+	9000 4400 9250 4400
+Wire Wire Line
+	9250 4400 9450 4200
+Wire Wire Line
+	9450 4200 9700 4200
+Wire Wire Line
+	9700 4200 9750 4250
+Wire Wire Line
+	9750 4250 10300 4250
+Connection ~ 9600 4200
+Wire Wire Line
+	9550 5050 9150 5050
+Wire Wire Line
+	9150 5050 9050 4950
+Wire Wire Line
+	9050 4950 8650 4950
+Wire Wire Line
+	9550 5250 9150 5250
+Wire Wire Line
+	9150 5250 9050 5350
+Wire Wire Line
+	9050 5350 8650 5350
+Wire Wire Line
+	9050 5150 8650 5150
+Connection ~ 8850 4950
+Connection ~ 8850 5350
+Wire Wire Line
+	6150 3500 6350 3500
+Wire Wire Line
+	3300 2250 3350 2250
+Wire Wire Line
+	3350 2250 3400 2200
+Wire Wire Line
+	3125 2400 3250 2300
+Wire Wire Line
+	3825 2250 3875 2250
+Wire Wire Line
+	3875 2250 3925 2200
+Wire Wire Line
+	3650 2400 3775 2300
+Wire Wire Line
+	4350 2250 4400 2250
+Wire Wire Line
+	4400 2250 4450 2200
+Wire Wire Line
+	4175 2400 4300 2300
+Wire Wire Line
+	4875 2250 4925 2250
+Wire Wire Line
+	4925 2250 4975 2200
+Wire Wire Line
+	4700 2400 4825 2300
+Wire Wire Line
+	5400 2250 5450 2250
+Wire Wire Line
+	5450 2250 5500 2200
+Wire Wire Line
+	5225 2400 5350 2300
+Wire Wire Line
+	3300 3025 3350 3025
+Wire Wire Line
+	3350 3025 3400 2975
+Wire Wire Line
+	3125 3175 3250 3075
+Wire Wire Line
+	3825 3025 3875 3025
+Wire Wire Line
+	3875 3025 3925 2975
+Wire Wire Line
+	3650 3175 3775 3075
+Wire Wire Line
+	4350 3025 4400 3025
+Wire Wire Line
+	4400 3025 4450 2975
+Wire Wire Line
+	4175 3175 4300 3075
+Wire Wire Line
+	4875 3025 4925 3025
+Wire Wire Line
+	4925 3025 4975 2975
+Wire Wire Line
+	4700 3175 4825 3075
+Wire Wire Line
+	5400 3025 5450 3025
+Wire Wire Line
+	5450 3025 5500 2975
+Wire Wire Line
+	5225 3175 5350 3075
+Wire Wire Line
+	3300 3800 3350 3800
+Wire Wire Line
+	3350 3800 3400 3750
+Wire Wire Line
+	3125 3950 3250 3850
+Wire Wire Line
+	3825 3800 3875 3800
+Wire Wire Line
+	3875 3800 3925 3750
+Wire Wire Line
+	3650 3950 3775 3850
+Wire Wire Line
+	4350 3800 4400 3800
+Wire Wire Line
+	4400 3800 4450 3750
+Wire Wire Line
+	4175 3950 4300 3850
+Wire Wire Line
+	4875 3800 4925 3800
+Wire Wire Line
+	4925 3800 4975 3750
+Wire Wire Line
+	4700 3950 4825 3850
+Wire Wire Line
+	5400 3800 5450 3800
+Wire Wire Line
+	5450 3800 5500 3750
+Wire Wire Line
+	5225 3950 5350 3850
+Wire Wire Line
+	3300 4575 3350 4575
+Wire Wire Line
+	3350 4575 3400 4525
+Wire Wire Line
+	3125 4725 3250 4625
+Wire Wire Line
+	3125 2600 5675 2600
+Wire Wire Line
+	3125 3375 5675 3375
+Wire Wire Line
+	3125 4150 5675 4150
+Wire Wire Line
+	3125 4925 5675 4925
+Wire Wire Line
+	3450 1775 3450 3650
+Wire Wire Line
+	3975 1775 3975 3650
+Wire Wire Line
+	4500 1775 4500 4275
+Wire Wire Line
+	4500 4275 3450 4275
+Wire Wire Line
+	3450 4275 3450 4425
+Connection ~ 4500 3650
+Wire Wire Line
+	5025 1775 5025 4300
+Wire Wire Line
+	5025 4300 3975 4300
+Wire Wire Line
+	4500 4300 4500 4425
+Connection ~ 5025 3650
+Wire Wire Line
+	3975 4300 3975 4425
+Connection ~ 4500 4300
+Wire Wire Line
+	5550 1775 5550 4425
+Wire Wire Line
+	5025 4425 5025 4325
+Wire Wire Line
+	5025 4325 5550 4325
+Connection ~ 5550 4325
+Connection ~ 3650 2600
+Connection ~ 4175 2600
+Connection ~ 4700 2600
+Connection ~ 3650 3375
+Connection ~ 4175 3375
+Connection ~ 4700 3375
+Connection ~ 5025 2875
+Connection ~ 5550 2875
+Connection ~ 4500 2875
+Connection ~ 3975 2875
+Connection ~ 3450 2875
+Connection ~ 3650 4150
+Connection ~ 4175 4150
+Connection ~ 4700 4150
+Connection ~ 5550 3650
+Wire Wire Line
+	3775 4625 4300 4625
+Wire Wire Line
+	4300 4625 4175 4725
+Wire Wire Line
+	4825 4625 5350 4625
+Wire Wire Line
+	5350 4625 5225 4725
+Wire Wire Line
+	3825 4575 4400 4575
+Wire Wire Line
+	4400 4575 4450 4525
+Wire Wire Line
+	4875 4575 5450 4575
+Wire Wire Line
+	5450 4575 5500 4525
+Connection ~ 5400 4575
+Connection ~ 4350 4575
+Connection ~ 5225 4925
+Connection ~ 5225 4150
+Connection ~ 5225 3375
+Connection ~ 5225 2600
+Connection ~ 4175 4925
+Connection ~ 3450 2100
+Connection ~ 3975 2100
+Connection ~ 4500 2100
+Connection ~ 5025 2100
+Connection ~ 5550 2100
+Wire Wire Line
+	3400 2150 3400 1900
+Wire Wire Line
+	3400 1900 5950 1900
+Wire Wire Line
+	4975 2150 4975 1900
+Connection ~ 4975 1900
+Wire Wire Line
+	5500 2150 5500 1900
+Connection ~ 5500 1900
+Wire Wire Line
+	4450 2150 4450 1900
+Connection ~ 4450 1900
+Wire Wire Line
+	3925 2150 3925 1900
+Connection ~ 3925 1900
+Wire Wire Line
+	3400 2925 3400 2750
+Wire Wire Line
+	3400 2750 5850 2750
+Wire Wire Line
+	5850 4350 5850 1900
+Connection ~ 5850 1900
+Wire Wire Line
+	5500 2925 5500 2750
+Connection ~ 5500 2750
+Wire Wire Line
+	4975 2925 4975 2750
+Connection ~ 4975 2750
+Wire Wire Line
+	4450 2925 4450 2750
+Connection ~ 4450 2750
+Wire Wire Line
+	3925 2925 3925 2750
+Connection ~ 3925 2750
+Wire Wire Line
+	3400 3700 3400 3525
+Wire Wire Line
+	3400 3525 5850 3525
+Connection ~ 5850 2750
+Wire Wire Line
+	5500 3700 5500 3525
+Connection ~ 5500 3525
+Wire Wire Line
+	4975 3700 4975 3525
+Connection ~ 4975 3525
+Wire Wire Line
+	4450 3700 4450 3525
+Connection ~ 4450 3525
+Wire Wire Line
+	3925 3700 3925 3525
+Connection ~ 3925 3525
+Wire Wire Line
+	3400 4350 5850 4350
+Wire Wire Line
+	3400 4350 3400 4475
+Connection ~ 5850 3525
+Wire Wire Line
+	3925 4475 3925 4350
+Connection ~ 3925 4350
+Wire Wire Line
+	4450 4475 4450 4350
+Connection ~ 4450 4350
+Wire Wire Line
+	4975 4475 4975 4350
+Connection ~ 4975 4350
+Wire Wire Line
+	5500 4475 5500 4350
+Connection ~ 5500 4350
+Wire Wire Line
+	3400 2700 5950 2700
+Wire Wire Line
+	3400 3475 5800 3475
+Wire Wire Line
+	5800 2700 5800 5025
+Connection ~ 5800 2700
+Wire Wire Line
+	5800 4250 3400 4250
+Connection ~ 5800 3475
+Wire Wire Line
+	5800 5025 3400 5025
+Connection ~ 5800 4250
+Connection ~ 4450 5025
+Connection ~ 5500 5025
+Connection ~ 3925 4250
+Connection ~ 4450 4250
+Connection ~ 4975 4250
+Connection ~ 5500 4250
+Connection ~ 3925 3475
+Connection ~ 4450 3475
+Connection ~ 4975 3475
+Connection ~ 5500 3475
+Connection ~ 3925 2700
+Connection ~ 4450 2700
+Connection ~ 4975 2700
+Connection ~ 5500 2700
+$EndSCHEMATC
