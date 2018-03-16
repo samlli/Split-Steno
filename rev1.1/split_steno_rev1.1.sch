@@ -55,10 +55,10 @@ U 1 1 5AA6A30D
 P 9250 3250
 F 0 "U1" H 9250 4200 60  0000 C CNN
 F 1 "ProMicro" H 9250 2700 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" H 9350 2200 60  0001 C CNN
+F 2 "lib_fp:ArduinoProMicro" H 9350 2200 60  0001 C CNN
 F 3 "" H 9350 2200 60  0000 C CNN
 	1    9250 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Audio-Jack-4 J1
@@ -66,10 +66,10 @@ U 1 1 5AA6B2AA
 P 8800 4300
 F 0 "J1" H 8750 4380 50  0000 C CNN
 F 1 "i2c" H 8920 3930 50  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 9050 4400 50  0001 C CNN
+F 2 "lib_fp:TRRS-PJ-320A" H 9050 4400 50  0001 C CNN
 F 3 "" H 9050 4400 50  0001 C CNN
 	1    8800 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R1
@@ -77,10 +77,10 @@ U 1 1 5AA6B485
 P 9600 4450
 F 0 "R1" V 9680 4450 50  0000 C CNN
 F 1 "4.7k" V 9600 4450 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" H 9600 4450 60  0001 C CNN
+F 2 "lib_fp:Resistor-Hybrid" H 9600 4450 60  0001 C CNN
 F 3 "" H 9600 4450 60  0000 C CNN
 	1    9600 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R2
@@ -88,10 +88,10 @@ U 1 1 5AA6B560
 P 9900 4450
 F 0 "R2" V 9980 4450 50  0000 C CNN
 F 1 "4.7k" V 9900 4450 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" H 9900 4450 60  0001 C CNN
+F 2 "lib_fp:Resistor-Hybrid" H 9900 4450 60  0001 C CNN
 F 3 "" H 9900 4450 60  0000 C CNN
 	1    9900 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SW_Push SW1
@@ -99,10 +99,10 @@ U 1 1 5AA7322B
 P 10350 5150
 F 0 "SW1" H 10400 5250 50  0000 L CNN
 F 1 "reset" H 10350 5090 50  0000 C CNN
-F 2 "Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117" H 10350 5350 50  0001 C CNN
+F 2 "lib_fp:SW_Tactile_SPST_Angled_MJTP1117" H 10350 5350 50  0001 C CNN
 F 3 "" H 10350 5350 50  0001 C CNN
 	1    10350 5150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR01
@@ -113,7 +113,7 @@ F 1 "GND" H 9950 2450 50  0000 C CNN
 F 2 "" H 9950 2600 50  0001 C CNN
 F 3 "" H 9950 2600 50  0001 C CNN
 	1    9950 2600
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L VCC #PWR02
@@ -124,7 +124,7 @@ F 1 "VCC" H 9950 2950 50  0000 C CNN
 F 2 "" H 9950 2800 50  0001 C CNN
 F 3 "" H 9950 2800 50  0001 C CNN
 	1    9950 2800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR03
@@ -135,7 +135,7 @@ F 1 "GND" H 8550 2600 50  0000 C CNN
 F 2 "" H 8550 2750 50  0001 C CNN
 F 3 "" H 8550 2750 50  0001 C CNN
 	1    8550 2750
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR04
@@ -146,7 +146,7 @@ F 1 "GND" H 10150 5000 50  0000 C CNN
 F 2 "" H 10150 5150 50  0001 C CNN
 F 3 "" H 10150 5150 50  0001 C CNN
 	1    10150 5150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 9950 2900 0    60   ~ 0
 c2
@@ -183,7 +183,7 @@ F 1 "GND" H 8600 4550 50  0000 C CNN
 F 2 "" H 8600 4700 50  0001 C CNN
 F 3 "" H 8600 4700 50  0001 C CNN
 	1    8600 4700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR06
@@ -194,7 +194,7 @@ F 1 "VCC" H 10300 4850 50  0000 C CNN
 F 2 "" H 10300 4700 50  0001 C CNN
 F 3 "" H 10300 4700 50  0001 C CNN
 	1    10300 4700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 10300 4250 0    60   ~ 0
 d1
@@ -206,10 +206,10 @@ U 1 1 5AA7FF78
 P 8550 5750
 F 0 "J4" H 8600 5950 50  0000 C CNN
 F 1 "icsp" H 8600 5550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 8550 5750 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_2x03_Pitch2.54mm" H 8550 5750 50  0001 C CNN
 F 3 "" H 8550 5750 50  0001 C CNN
 	1    8550 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 9950 3300 0    60   ~ 0
 sclk
@@ -234,7 +234,7 @@ F 1 "VCC" H 8850 5800 50  0000 C CNN
 F 2 "" H 8850 5650 50  0001 C CNN
 F 3 "" H 8850 5650 50  0001 C CNN
 	1    8850 5650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR08
@@ -245,7 +245,7 @@ F 1 "GND" H 8850 5700 50  0000 C CNN
 F 2 "" H 8850 5850 50  0001 C CNN
 F 3 "" H 8850 5850 50  0001 C CNN
 	1    8850 5850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Conn_01x03 J3
@@ -253,10 +253,10 @@ U 1 1 5AA81B23
 P 9750 5150
 F 0 "J3" H 9750 5350 50  0000 C CNN
 F 1 "rgb" H 9750 4950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9750 5150 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x03_Pitch2.54mm" H 9750 5150 50  0001 C CNN
 F 3 "" H 9750 5150 50  0001 C CNN
 	1    9750 5150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR09
@@ -267,7 +267,7 @@ F 1 "VCC" H 8650 5100 50  0000 C CNN
 F 2 "" H 8650 4950 50  0001 C CNN
 F 3 "" H 8650 4950 50  0001 C CNN
 	1    8650 4950
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L GND #PWR010
@@ -278,7 +278,7 @@ F 1 "GND" H 8650 5200 50  0000 C CNN
 F 2 "" H 8650 5350 50  0001 C CNN
 F 3 "" H 8650 5350 50  0001 C CNN
 	1    8650 5350
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 8550 3600 2    60   ~ 0
 d3
@@ -290,10 +290,10 @@ U 1 1 5AA835FD
 P 9600 5700
 F 0 "J5" H 9600 5800 50  0000 C CNN
 F 1 "raw" H 9600 5500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9600 5700 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x02_Pitch2.54mm" H 9600 5700 50  0001 C CNN
 F 3 "" H 9600 5700 50  0001 C CNN
 	1    9600 5700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR011
@@ -304,7 +304,7 @@ F 1 "GND" H 9400 5650 50  0000 C CNN
 F 2 "" H 9400 5800 50  0001 C CNN
 F 3 "" H 9400 5800 50  0001 C CNN
 	1    9400 5800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Conn_01x04 J2
@@ -312,10 +312,10 @@ U 1 1 5AA86464
 P 10350 5650
 F 0 "J2" H 10350 5850 50  0000 C CNN
 F 1 "serial" H 10350 5350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 10350 5650 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x04_Pitch2.54mm" H 10350 5650 50  0001 C CNN
 F 3 "" H 10350 5650 50  0001 C CNN
 	1    10350 5650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR012
@@ -326,7 +326,7 @@ F 1 "VCC" H 10150 5700 50  0000 C CNN
 F 2 "" H 10150 5550 50  0001 C CNN
 F 3 "" H 10150 5550 50  0001 C CNN
 	1    10150 5550
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L GND #PWR013
@@ -337,7 +337,7 @@ F 1 "GND" H 10150 5700 50  0000 C CNN
 F 2 "" H 10150 5850 50  0001 C CNN
 F 3 "" H 10150 5850 50  0001 C CNN
 	1    10150 5850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 10150 5650 2    60   ~ 0
 rx
@@ -353,10 +353,10 @@ U 1 1 5AA876AC
 P 7800 3950
 F 0 "J6" H 7800 4050 50  0000 C CNN
 F 1 "extra" H 7800 3850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 7800 3950 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x01_Pitch2.54mm" H 7800 3950 50  0001 C CNN
 F 3 "" H 7800 3950 50  0001 C CNN
 	1    7800 3950
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Label 9950 3600 0    60   ~ 0
 d4
@@ -366,10 +366,10 @@ U 1 1 5AA8A780
 P 8850 5150
 F 0 "C1" H 8900 5250 50  0000 L CNN
 F 1 "100" H 8900 5050 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 8850 5150 60  0001 C CNN
+F 2 "lib_fp:CP_Radial_D5.0mm_P2.00mm" H 8850 5150 60  0001 C CNN
 F 3 "" H 8850 5150 60  0000 C CNN
 	1    8850 5150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R3
@@ -377,10 +377,10 @@ U 1 1 5AA8A82B
 P 9300 5150
 F 0 "R3" V 9380 5150 50  0000 C CNN
 F 1 "470" V 9300 5150 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" H 9300 5150 60  0001 C CNN
+F 2 "lib_fp:Resistor-Hybrid" H 9300 5150 60  0001 C CNN
 F 3 "" H 9300 5150 60  0000 C CNN
 	1    9300 5150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 8000 3950 0    60   ~ 0
 d3
@@ -393,7 +393,7 @@ F 1 "+6V" H 9950 2640 50  0000 C CNN
 F 2 "" H 9950 2500 50  0001 C CNN
 F 3 "" H 9950 2500 50  0001 C CNN
 	1    9950 2500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L +6V #PWR015
@@ -404,7 +404,7 @@ F 1 "+6V" H 9400 5840 50  0000 C CNN
 F 2 "" H 9400 5700 50  0001 C CNN
 F 3 "" H 9400 5700 50  0001 C CNN
 	1    9400 5700
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L KEYSW K1
@@ -412,10 +412,10 @@ U 1 1 5AA9E410
 P 3500 2250
 F 0 "K1" H 3450 2250 60  0000 C CNN
 F 1 "KEYSW" H 3500 2150 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3500 2250 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 3500 2250 60  0001 C CNN
 F 3 "" H 3500 2250 60  0000 C CNN
 	1    3500 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D1
@@ -423,10 +423,10 @@ U 1 1 5AA9E537
 P 3150 2450
 F 0 "D1" V 3000 2400 60  0000 C CNN
 F 1 "D" V 3300 2400 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 3150 2450 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 3150 2450 60  0001 C CNN
 F 3 "" H 3150 2450 60  0000 C CNN
 	1    3150 2450
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K2
@@ -434,10 +434,10 @@ U 1 1 5AA9E946
 P 4300 2250
 F 0 "K2" H 4250 2250 60  0000 C CNN
 F 1 "KEYSW" H 4300 2150 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4300 2250 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 4300 2250 60  0001 C CNN
 F 3 "" H 4300 2250 60  0000 C CNN
 	1    4300 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D2
@@ -445,10 +445,10 @@ U 1 1 5AA9E94D
 P 3950 2450
 F 0 "D2" V 3800 2400 60  0000 C CNN
 F 1 "D" V 4100 2400 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 3950 2450 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 3950 2450 60  0001 C CNN
 F 3 "" H 3950 2450 60  0000 C CNN
 	1    3950 2450
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K3
@@ -456,10 +456,10 @@ U 1 1 5AA9EBE6
 P 5100 2250
 F 0 "K3" H 5050 2250 60  0000 C CNN
 F 1 "KEYSW" H 5100 2150 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5100 2250 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 5100 2250 60  0001 C CNN
 F 3 "" H 5100 2250 60  0000 C CNN
 	1    5100 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D3
@@ -467,10 +467,10 @@ U 1 1 5AA9EBED
 P 4750 2450
 F 0 "D3" V 4600 2400 60  0000 C CNN
 F 1 "D" V 4900 2400 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 4750 2450 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 4750 2450 60  0001 C CNN
 F 3 "" H 4750 2450 60  0000 C CNN
 	1    4750 2450
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K4
@@ -478,10 +478,10 @@ U 1 1 5AA9EBF6
 P 5900 2250
 F 0 "K4" H 5850 2250 60  0000 C CNN
 F 1 "KEYSW" H 5900 2150 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip" H 5900 2250 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole-flip" H 5900 2250 60  0001 C CNN
 F 3 "" H 5900 2250 60  0000 C CNN
 	1    5900 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D4
@@ -489,10 +489,10 @@ U 1 1 5AA9EBFD
 P 5550 2450
 F 0 "D4" V 5400 2400 60  0000 C CNN
 F 1 "D" V 5700 2400 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 5550 2450 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 5550 2450 60  0001 C CNN
 F 3 "" H 5550 2450 60  0000 C CNN
 	1    5550 2450
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K5
@@ -500,10 +500,10 @@ U 1 1 5AA9EEEE
 P 6700 2250
 F 0 "K5" H 6650 2250 60  0000 C CNN
 F 1 "KEYSW" H 6700 2150 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6700 2250 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 6700 2250 60  0001 C CNN
 F 3 "" H 6700 2250 60  0000 C CNN
 	1    6700 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D5
@@ -511,10 +511,10 @@ U 1 1 5AA9EEF5
 P 6350 2450
 F 0 "D5" V 6200 2400 60  0000 C CNN
 F 1 "D" V 6500 2400 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 6350 2450 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 6350 2450 60  0001 C CNN
 F 3 "" H 6350 2450 60  0000 C CNN
 	1    6350 2450
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K6
@@ -522,10 +522,10 @@ U 1 1 5AA9F532
 P 3500 2700
 F 0 "K6" H 3450 2700 60  0000 C CNN
 F 1 "KEYSW" H 3500 2600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3500 2700 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 3500 2700 60  0001 C CNN
 F 3 "" H 3500 2700 60  0000 C CNN
 	1    3500 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D6
@@ -533,10 +533,10 @@ U 1 1 5AA9F539
 P 3150 2900
 F 0 "D6" V 3000 2850 60  0000 C CNN
 F 1 "D" V 3300 2850 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 3150 2900 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 3150 2900 60  0001 C CNN
 F 3 "" H 3150 2900 60  0000 C CNN
 	1    3150 2900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K7
@@ -544,10 +544,10 @@ U 1 1 5AA9F542
 P 4300 2700
 F 0 "K7" H 4250 2700 60  0000 C CNN
 F 1 "KEYSW" H 4300 2600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4300 2700 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 4300 2700 60  0001 C CNN
 F 3 "" H 4300 2700 60  0000 C CNN
 	1    4300 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D7
@@ -555,10 +555,10 @@ U 1 1 5AA9F549
 P 3950 2900
 F 0 "D7" V 3800 2850 60  0000 C CNN
 F 1 "D" V 4100 2850 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 3950 2900 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 3950 2900 60  0001 C CNN
 F 3 "" H 3950 2900 60  0000 C CNN
 	1    3950 2900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K8
@@ -566,10 +566,10 @@ U 1 1 5AA9F552
 P 5100 2700
 F 0 "K8" H 5050 2700 60  0000 C CNN
 F 1 "KEYSW" H 5100 2600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5100 2700 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 5100 2700 60  0001 C CNN
 F 3 "" H 5100 2700 60  0000 C CNN
 	1    5100 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D8
@@ -577,10 +577,10 @@ U 1 1 5AA9F559
 P 4750 2900
 F 0 "D8" V 4600 2850 60  0000 C CNN
 F 1 "D" V 4900 2850 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 4750 2900 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 4750 2900 60  0001 C CNN
 F 3 "" H 4750 2900 60  0000 C CNN
 	1    4750 2900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K9
@@ -588,10 +588,10 @@ U 1 1 5AA9F562
 P 5900 2700
 F 0 "K9" H 5850 2700 60  0000 C CNN
 F 1 "KEYSW" H 5900 2600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip" H 5900 2700 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole-flip" H 5900 2700 60  0001 C CNN
 F 3 "" H 5900 2700 60  0000 C CNN
 	1    5900 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D9
@@ -599,10 +599,10 @@ U 1 1 5AA9F569
 P 5550 2900
 F 0 "D9" V 5400 2850 60  0000 C CNN
 F 1 "D" V 5700 2850 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 5550 2900 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 5550 2900 60  0001 C CNN
 F 3 "" H 5550 2900 60  0000 C CNN
 	1    5550 2900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K10
@@ -610,10 +610,10 @@ U 1 1 5AA9F572
 P 6700 2700
 F 0 "K10" H 6650 2700 60  0000 C CNN
 F 1 "KEYSW" H 6700 2600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip" H 6700 2700 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole-flip" H 6700 2700 60  0001 C CNN
 F 3 "" H 6700 2700 60  0000 C CNN
 	1    6700 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D10
@@ -621,10 +621,10 @@ U 1 1 5AA9F579
 P 6350 2900
 F 0 "D10" V 6200 2850 60  0000 C CNN
 F 1 "D" V 6500 2850 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 6350 2900 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 6350 2900 60  0001 C CNN
 F 3 "" H 6350 2900 60  0000 C CNN
 	1    6350 2900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K11
@@ -632,10 +632,10 @@ U 1 1 5AAA03F6
 P 3500 3150
 F 0 "K11" H 3450 3150 60  0000 C CNN
 F 1 "KEYSW" H 3500 3050 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3500 3150 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 3500 3150 60  0001 C CNN
 F 3 "" H 3500 3150 60  0000 C CNN
 	1    3500 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D11
@@ -643,10 +643,10 @@ U 1 1 5AAA03FD
 P 3150 3350
 F 0 "D11" V 3000 3300 60  0000 C CNN
 F 1 "D" V 3300 3300 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 3150 3350 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 3150 3350 60  0001 C CNN
 F 3 "" H 3150 3350 60  0000 C CNN
 	1    3150 3350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K12
@@ -654,10 +654,10 @@ U 1 1 5AAA0406
 P 4300 3150
 F 0 "K12" H 4250 3150 60  0000 C CNN
 F 1 "KEYSW" H 4300 3050 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4300 3150 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 4300 3150 60  0001 C CNN
 F 3 "" H 4300 3150 60  0000 C CNN
 	1    4300 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D12
@@ -665,10 +665,10 @@ U 1 1 5AAA040D
 P 3950 3350
 F 0 "D12" V 3800 3300 60  0000 C CNN
 F 1 "D" V 4100 3300 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 3950 3350 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 3950 3350 60  0001 C CNN
 F 3 "" H 3950 3350 60  0000 C CNN
 	1    3950 3350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K13
@@ -676,10 +676,10 @@ U 1 1 5AAA0416
 P 5100 3150
 F 0 "K13" H 5050 3150 60  0000 C CNN
 F 1 "KEYSW" H 5100 3050 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5100 3150 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 5100 3150 60  0001 C CNN
 F 3 "" H 5100 3150 60  0000 C CNN
 	1    5100 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D13
@@ -687,10 +687,10 @@ U 1 1 5AAA041D
 P 4750 3350
 F 0 "D13" V 4600 3300 60  0000 C CNN
 F 1 "D" V 4900 3300 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 4750 3350 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 4750 3350 60  0001 C CNN
 F 3 "" H 4750 3350 60  0000 C CNN
 	1    4750 3350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K14
@@ -698,10 +698,10 @@ U 1 1 5AAA0426
 P 5900 3150
 F 0 "K14" H 5850 3150 60  0000 C CNN
 F 1 "KEYSW" H 5900 3050 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip" H 5900 3150 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole-flip" H 5900 3150 60  0001 C CNN
 F 3 "" H 5900 3150 60  0000 C CNN
 	1    5900 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D14
@@ -709,10 +709,10 @@ U 1 1 5AAA042D
 P 5550 3350
 F 0 "D14" V 5400 3300 60  0000 C CNN
 F 1 "D" V 5700 3300 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 5550 3350 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 5550 3350 60  0001 C CNN
 F 3 "" H 5550 3350 60  0000 C CNN
 	1    5550 3350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K15
@@ -720,10 +720,10 @@ U 1 1 5AAA0436
 P 6700 3150
 F 0 "K15" H 6650 3150 60  0000 C CNN
 F 1 "KEYSW" H 6700 3050 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip" H 6700 3150 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole-flip" H 6700 3150 60  0001 C CNN
 F 3 "" H 6700 3150 60  0000 C CNN
 	1    6700 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D15
@@ -731,10 +731,10 @@ U 1 1 5AAA043D
 P 6350 3350
 F 0 "D15" V 6200 3300 60  0000 C CNN
 F 1 "D" V 6500 3300 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 6350 3350 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 6350 3350 60  0001 C CNN
 F 3 "" H 6350 3350 60  0000 C CNN
 	1    6350 3350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K16
@@ -742,10 +742,10 @@ U 1 1 5AAA0B82
 P 5100 3600
 F 0 "K16" H 5050 3600 60  0000 C CNN
 F 1 "KEYSW" H 5100 3500 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip" H 5100 3600 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole-flip" H 5100 3600 60  0001 C CNN
 F 3 "" H 5100 3600 60  0000 C CNN
 	1    5100 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D16
@@ -753,10 +753,10 @@ U 1 1 5AAA0B89
 P 4750 3900
 F 0 "D16" V 4600 3850 60  0000 C CNN
 F 1 "D" V 4900 3850 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 4750 3900 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 4750 3900 60  0001 C CNN
 F 3 "" H 4750 3900 60  0000 C CNN
 	1    4750 3900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K19
@@ -764,10 +764,10 @@ U 1 1 5AAA0B92
 P 5900 3700
 F 0 "K19" H 5850 3700 60  0000 C CNN
 F 1 "KEYSW" H 5900 3600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_200H-dual-nosilk" H 5900 3700 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_200H-dual-nosilk" H 5900 3700 60  0001 C CNN
 F 3 "" H 5900 3700 60  0000 C CNN
 	1    5900 3700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K17
@@ -775,10 +775,10 @@ U 1 1 5AAA0BA2
 P 5900 3600
 F 0 "K17" H 5850 3600 60  0000 C CNN
 F 1 "KEYSW" H 5900 3500 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip" H 5900 3600 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole-flip" H 5900 3600 60  0001 C CNN
 F 3 "" H 5900 3600 60  0000 C CNN
 	1    5900 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D17
@@ -786,10 +786,10 @@ U 1 1 5AAA0BA9
 P 5550 3900
 F 0 "D17" V 5400 3850 60  0000 C CNN
 F 1 "D" V 5700 3850 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 5550 3900 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 5550 3900 60  0001 C CNN
 F 3 "" H 5550 3900 60  0000 C CNN
 	1    5550 3900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L KEYSW K20
@@ -797,10 +797,10 @@ U 1 1 5AAA0BB2
 P 6700 3700
 F 0 "K20" H 6650 3700 60  0000 C CNN
 F 1 "KEYSW" H 6700 3600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_200H-dual-nosilk" H 6700 3700 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_200H-dual-nosilk" H 6700 3700 60  0001 C CNN
 F 3 "" H 6700 3700 60  0000 C CNN
 	1    6700 3700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L KEYSW K18
@@ -808,10 +808,10 @@ U 1 1 5AAA0BC2
 P 6700 3600
 F 0 "K18" H 6650 3600 60  0000 C CNN
 F 1 "KEYSW" H 6700 3500 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6700 3600 60  0001 C CNN
+F 2 "lib_fp:Hybrid_PCB_100H_Dual_hole" H 6700 3600 60  0001 C CNN
 F 3 "" H 6700 3600 60  0000 C CNN
 	1    6700 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L D D18
@@ -819,10 +819,10 @@ U 1 1 5AAA0BC9
 P 6350 3900
 F 0 "D18" V 6200 3850 60  0000 C CNN
 F 1 "D" V 6500 3850 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 6350 3900 60  0001 C CNN
+F 2 "lib_fp:Diode-dual" H 6350 3900 60  0001 C CNN
 F 3 "" H 6350 3900 60  0000 C CNN
 	1    6350 3900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Label 3800 2050 0    60   ~ 0
 c1
