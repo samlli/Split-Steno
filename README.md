@@ -8,7 +8,7 @@ Open source PCB design for a mirrored keyboard with the layout below:
 
 **rev1.x Features:**
 
-Atmega32u4 controller  
+ATmega32u4 controller  
 Mirrored Alps + MX compat  
 3 x 1u / 2u + 1u bottom row layout support  
 THT & SMD support  
@@ -17,7 +17,7 @@ QMK firmware
 
 **rev2.x Features:**
 
-Atxmega controller  
+ATxmega controller  
 nRF24L01+ wireless  
 Per-key LED backlighting  
 WS2812b underglow   
