@@ -2,5 +2,5 @@
 
 **Features:**
 
-Integrated ATxmega controller
+Integrated ATxmega controller  
 SMD only
