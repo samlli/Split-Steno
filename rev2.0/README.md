@@ -3,4 +3,7 @@
 **Features:**
 
 Integrated ATxmega controller  
-SMD only
+SMD only  
+No Diodes  
+Reversible PCB  
+Wireless NRF  
