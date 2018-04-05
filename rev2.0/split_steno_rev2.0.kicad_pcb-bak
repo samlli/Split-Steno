@@ -3,7 +3,7 @@
   (general
     (links 440)
     (no_connects 148)
-    (area 33.262499 52.312499 126.281251 52.462501)
+    (area 29.138393 22 224.132381 158.135)
     (thickness 1.6)
     (drawings 1)
     (tracks 16)
@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (trace_clearance 0.2)
@@ -461,7 +461,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer B.Cu) (tedit 58AA848B) (tstamp 5AC05C37)
-    (at 109.5375 61.9125)
+    (at 103.8 43.3)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /5AB5704D)
@@ -926,7 +926,7 @@
   )
 
   (module Keebio-Parts:TRRS-PJ-320A (layer F.Cu) (tedit 5981F42F) (tstamp 5AC05D17)
-    (at 123.825 28.575)
+    (at 108.2 52.4)
     (path /5AB02059)
     (fp_text reference J1 (at 0 14.2) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1121,7 +1121,7 @@
   )
 
   (module WS2812B:WS2812B (layer B.Cu) (tedit 53BEE615) (tstamp 5AC05DAC)
-    (at 107.15625 69.05625)
+    (at 103.3 50.1)
     (path /5AB37306)
     (fp_text reference LED2 (at 0 4.7) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
@@ -3454,7 +3454,7 @@
   )
 
   (module Keebio-Parts:TRRS-PJ-320A (layer B.Cu) (tedit 5981F42F) (tstamp 5AC091D4)
-    (at 116.68125 28.575 180)
+    (at 106.2 52.4 180)
     (fp_text reference REF** (at 0 -14.2 180) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3507,7 +3507,7 @@
   )
 
   (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 5AC1971F) (tstamp 5AC1A04F)
-    (at 116.68125 64.29375)
+    (at 135.7 58.8)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
