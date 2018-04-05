@@ -1,6 +1,6 @@
 # rev1.2
 
-**INCOMPLETE**
+**WARNING: INCOMPLETE/ABANDONED**
 
 **Features:**
 

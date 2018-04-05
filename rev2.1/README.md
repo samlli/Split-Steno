@@ -1,8 +1,9 @@
-# rev2.0
+# rev2.1
 
 **Features:**
 
 Integrated ATxmega controller  
 SMD only  
 No Diodes  
-Reversible PCB
+Reversible PCB  
+Wireless NRF
