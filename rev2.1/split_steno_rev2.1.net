@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/YAN/Documents/pcb_design/split_steno/rev2.1/split_steno_rev2.1.sch)
-    (date "4/6/2018 11:41:24 PM")
+    (date "4/7/2018 12:19:34 AM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,7 +29,7 @@
       (tstamp 5AB02059))
     (comp (ref SW21)
       (value SW_Push)
-      (footprint switch:SwitchPush_C&K_MultiFoot_RS-187R05A2-DS_And_PTS645_SMT)
+      (footprint Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117)
       (libsource (lib switches) (part SW_Push))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AB02100))
