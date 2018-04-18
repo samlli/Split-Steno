@@ -3,9 +3,9 @@
   (general
     (links 448)
     (no_connects 158)
-    (area 33.399999 65.524999 133.275001 140.475001)
+    (area 30.807049 59.025 186.032381 159.4875)
     (thickness 1.6)
-    (drawings 26)
+    (drawings 28)
     (tracks 16)
     (zones 0)
     (modules 76)
@@ -34,7 +34,7 @@
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
-    (43 Eco2.User user hide)
+    (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
     (46 B.CrtYd user hide)
@@ -228,7 +228,7 @@
     (add_net VCC)
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05ECE)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05ECE)
     (at 40.48125 73.81875 180)
     (path /5AB9EB4E)
     (fp_text reference SW1 (at 0 3.175 180) (layer F.SilkS) hide
@@ -296,7 +296,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05F37)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05F37)
     (at 97.63125 73.81875 180)
     (path /5AB9FE65)
     (fp_text reference SW4 (at 0 3.175 180) (layer F.SilkS) hide
@@ -430,7 +430,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer B.Cu) (tedit 58AA848B) (tstamp 5AC05C04)
-    (at 50 113)
+    (at 50 118.025)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /5AB564A4)
@@ -1003,7 +1003,7 @@
   )
 
   (module WS2812B:WS2812B (layer B.Cu) (tedit 53BEE615) (tstamp 5AC05D83)
-    (at 50 116.7 270)
+    (at 50 114.7 270)
     (path /5AB36B27)
     (fp_text reference LED1 (at 0 4.7 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
@@ -1498,7 +1498,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05EF1)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05EF1)
     (at 59.53125 73.81875 180)
     (path /5AB9F6D7)
     (fp_text reference SW2 (at 0 3.175 180) (layer F.SilkS) hide
@@ -1566,7 +1566,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05F14)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05F14)
     (at 78.58125 73.81875 180)
     (path /5AB9FA5A)
     (fp_text reference SW3 (at 0 3.175 180) (layer F.SilkS) hide
@@ -1634,7 +1634,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05FA0)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05FA0)
     (at 59.53125 92.86875)
     (path /5ABA0D28)
     (fp_text reference SW7 (at 0 3.175) (layer F.SilkS) hide
@@ -1702,7 +1702,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05FC3)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05FC3)
     (at 78.58125 92.86875)
     (path /5ABA0D2F)
     (fp_text reference SW8 (at 0 3.175) (layer F.SilkS) hide
@@ -1770,7 +1770,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05FE6)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC05FE6)
     (at 97.63125 92.86875)
     (path /5ABA0F92)
     (fp_text reference SW9 (at 0 3.175) (layer F.SilkS) hide
@@ -1838,7 +1838,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC06009)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC06009)
     (at 116.68125 92.86875)
     (path /5ABA0F99)
     (fp_text reference SW10 (at 0 3.175) (layer F.SilkS) hide
@@ -1906,7 +1906,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC0602C)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC0602C)
     (at 40.48125 111.91875 180)
     (path /5ABA0FA0)
     (fp_text reference SW11 (at 0 3.175 180) (layer F.SilkS) hide
@@ -1974,7 +1974,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC0604F)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC0604F)
     (at 59.53125 111.91875 180)
     (path /5ABA0FA7)
     (fp_text reference SW12 (at 0 3.175 180) (layer F.SilkS) hide
@@ -2042,7 +2042,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC06095)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC06095)
     (at 97.63125 111.91875 180)
     (path /5ABA0FB9)
     (fp_text reference SW14 (at 0 3.175 180) (layer F.SilkS) hide
@@ -2110,7 +2110,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC060FE)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC060FE)
     (at 107.15625 130.96875)
     (path /5ABA11A6)
     (fp_text reference SW17 (at 0 3.175) (layer F.SilkS) hide
@@ -2178,7 +2178,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC06121)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole locked (layer F.Cu) (tedit 5A41EBEB) (tstamp 5AC06121)
     (at 126.20625 130.96875)
     (path /5ABA11AD)
     (fp_text reference SW18 (at 0 3.175) (layer F.SilkS) hide
@@ -2246,7 +2246,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_200H-dual-nosilk (layer F.Cu) (tedit 5AC8F725) (tstamp 5AC06171)
+  (module Keebio-Parts:Hybrid_PCB_200H-dual-nosilk locked (layer F.Cu) (tedit 5AC8F725) (tstamp 5AC06171)
     (at 97.63125 130.96875 180)
     (path /5ABA11B4)
     (fp_text reference SW19 (at 0 3.175 180) (layer F.SilkS) hide
@@ -2366,7 +2366,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_200H-dual-nosilk (layer F.Cu) (tedit 5AC8F729) (tstamp 5AC061C1)
+  (module Keebio-Parts:Hybrid_PCB_200H-dual-nosilk locked (layer F.Cu) (tedit 5AC8F729) (tstamp 5AC061C1)
     (at 116.68125 130.96875 180)
     (path /5ABA11BB)
     (fp_text reference SW20 (at 0 3.175 180) (layer F.SilkS) hide
@@ -2925,7 +2925,7 @@
     (pad 9 smd rect (at 4.2037 -2.64668) (size 2.49936 2.19964) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module Keebio-Parts:TRRS-PJ-320A (layer F.Cu) (tedit 5981F42F) (tstamp 5AC6E401)
+  (module Keebio-Parts:TRRS-PJ-320A locked (layer F.Cu) (tedit 5981F42F) (tstamp 5AC6E401)
     (at 108.1 65.6)
     (path /5AB02059)
     (fp_text reference J2 (at 0 14.2) (layer Dwgs.User)
@@ -2953,7 +2953,7 @@
       (net 11 /SDA))
   )
 
-  (module Keebio-Parts:TRRS-PJ-320A (layer B.Cu) (tedit 5AC8F682) (tstamp 5AC701E0)
+  (module Keebio-Parts:TRRS-PJ-320A locked (layer B.Cu) (tedit 5AC8F682) (tstamp 5AC701E0)
     (at 106.2 65.6 180)
     (fp_text reference REF** (at 0 -14.2 180) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2980,7 +2980,7 @@
       (net 11 /SDA))
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip (layer F.Cu) (tedit 5A41EE18) (tstamp 5AC709FB)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip locked (layer F.Cu) (tedit 5A41EE18) (tstamp 5AC709FB)
     (at 78.58125 111.91875 180)
     (path /5ABA0FB2)
     (fp_text reference SW13 (at 0 3.175 180) (layer F.SilkS) hide
@@ -3048,7 +3048,7 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 5AC83A1B) (tstamp 5AC879B0)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad locked (layer F.Cu) (tedit 5AC83A1B) (tstamp 5AC879B0)
     (at 116.68125 123.825)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -3239,7 +3239,7 @@
       (net 58 "Net-(LED5-Pad2)"))
   )
 
-  (module airi_logo:airi_icon-7.6 (layer B.Cu) (tedit 0) (tstamp 5AC8929A)
+  (module airi_logo:airi_icon-7.6 locked (layer B.Cu) (tedit 0) (tstamp 5AC8929A)
     (at 69.05625 130.96875 180)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
@@ -3330,7 +3330,7 @@
       (xy 1.69672 -0.335006) (xy 1.69672 -1.69672)) (layer B.Mask) (width 0.01))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 5AC8422B) (tstamp 5AC892CA)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad locked (layer F.Cu) (tedit 5AC8422B) (tstamp 5AC892CA)
     (at 50 76.4)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -3345,7 +3345,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 5AC8422E) (tstamp 5AC892D7)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad locked (layer F.Cu) (tedit 5AC8422E) (tstamp 5AC892D7)
     (at 50 109.6)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -3360,7 +3360,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 5AC84227) (tstamp 5AC892E4)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad locked (layer F.Cu) (tedit 5AC84227) (tstamp 5AC892E4)
     (at 97.63125 123.825)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -3375,7 +3375,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 5AC84372) (tstamp 5AC8934C)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad locked (layer F.Cu) (tedit 5AC84372) (tstamp 5AC8934C)
     (at 116.68125 83.34375)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -3390,7 +3390,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 5AC84374) (tstamp 5AC89359)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad locked (layer F.Cu) (tedit 5AC84374) (tstamp 5AC89359)
     (at 97.63125 83.34375)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -3453,7 +3453,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip (layer F.Cu) (tedit 5A41EE18) (tstamp 5AC8F791)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip locked (layer F.Cu) (tedit 5A41EE18) (tstamp 5AC8F791)
     (at 116.68125 73.81875 180)
     (path /5ABA0D1A)
     (fp_text reference SW5 (at 0 3.175 180) (layer F.SilkS) hide
@@ -3521,7 +3521,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip (layer F.Cu) (tedit 5A41EE18) (tstamp 5AC8F7B3)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip locked (layer F.Cu) (tedit 5A41EE18) (tstamp 5AC8F7B3)
     (at 40.48125 92.86875)
     (path /5ABA0D21)
     (fp_text reference SW6 (at 0 3.175) (layer F.SilkS) hide
@@ -3589,7 +3589,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip (layer F.Cu) (tedit 5A41EE18) (tstamp 5AC8F7D5)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip locked (layer F.Cu) (tedit 5A41EE18) (tstamp 5AC8F7D5)
     (at 116.68125 111.91875 180)
     (path /5ABA0FC0)
     (fp_text reference SW15 (at 0 3.175 180) (layer F.SilkS) hide
@@ -3657,7 +3657,7 @@
     )
   )
 
-  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip (layer F.Cu) (tedit 5A41EE18) (tstamp 5AC8F7F7)
+  (module Keebio-Parts:Hybrid_PCB_100H_Dual_hole-flip locked (layer F.Cu) (tedit 5A41EE18) (tstamp 5AC8F7F7)
     (at 88.10625 130.96875)
     (path /5ABA0FC7)
     (fp_text reference SW16 (at 0 3.175) (layer F.SilkS) hide
@@ -3926,30 +3926,32 @@
     )
   )
 
+  (gr_line (start 33.475 116.9) (end 33.475 68.8) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 59.6 123.4) (end 59.6 120.9) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 123.65 116.9) (end 123.65 116.4) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 133.2 138.4) (end 133.2 120.9) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 101.95 66.8) (end 35.6 66.8) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 103.15 65.6) (end 101.95 66.8) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 112.35 66.8) (end 121.65 66.8) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 111.15 65.6) (end 112.35 66.8) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 103.15 65.6) (end 111.15 65.6) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 123.65 116.4) (end 123.65 68.8) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 125.75 118.4) (end 128.2 118.4) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 33.475 68.8) (end 33.475 119.4) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 125.65 118.4) (end 125.75 118.4) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 133.2 138.4) (end 133.2 120.4) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 125.75 118.9) (end 128.2 118.9) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 125.65 118.9) (end 125.75 118.9) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 59.6 123.4) (end 59.6 138.4) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 35.6 121.4) (end 35.475 121.4) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 35.6 118.9) (end 35.475 118.9) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 35.475 66.8) (end 35.6 66.8) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 131 118.4) (end 131.2 118.4) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 131 118.9) (end 131.2 118.9) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 131 140.4) (end 131.2 140.4) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 128.2 118.4) (end 131 118.4) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 125.65 116.4) (end 125.65 118.4) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 57.6 121.4) (end 35.6 121.4) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 128.2 118.9) (end 131 118.9) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 125.65 116.9) (end 125.65 118.9) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 57.6 118.9) (end 35.6 118.9) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 61.6 140.4) (end 131 140.4) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 131.2 120.4) (end 131.2 118.4) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 131.2 120.9) (end 131.2 118.9) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 35.475 68.8) (end 33.475 68.8) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 35.475 119.4) (end 35.475 121.4) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 35.475 116.9) (end 35.475 118.9) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 121.65 68.8) (end 121.65 66.8) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 57.6 123.4) (end 57.6 121.4) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 57.6 120.9) (end 57.6 118.9) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 61.6 138.4) (end 61.6 140.4) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 131.2 138.4) (end 133.2 138.4) (angle 90) (layer Edge.Cuts) (width 0.15))
 
