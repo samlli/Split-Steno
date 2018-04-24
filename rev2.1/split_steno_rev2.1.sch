@@ -395,7 +395,7 @@ F 3 "" H 8150 4975 50  0001 C CNN
 	1    8150 4975
 	1    0    0    -1  
 $EndComp
-Text Label 10875 6200 0    60   ~ 0
+Text Label 10875 6300 0    60   ~ 0
 UNDER_LED
 Text Label 10875 6600 0    60   ~ 0
 CSN
@@ -405,41 +405,41 @@ Text Label 10875 6800 0    60   ~ 0
 MISO
 Text Label 10875 6900 0    60   ~ 0
 SCK
-Text Label 10875 5950 0    60   ~ 0
+Text Label 10875 6400 0    60   ~ 0
 CE
-Text Label 10875 6050 0    60   ~ 0
+Text Label 10875 6500 0    60   ~ 0
 IRQ
 $Comp
 L Battery BT1
 U 1 1 5AB4F202
-P 2500 1650
-F 0 "BT1" H 2600 1750 50  0000 L CNN
-F 1 "Battery" H 2600 1650 50  0000 L CNN
-F 2 "battery:CR2032_BK-913" V 2500 1710 50  0001 C CNN
-F 3 "" V 2500 1710 50  0001 C CNN
-	1    2500 1650
+P 3375 1650
+F 0 "BT1" H 3475 1750 50  0000 L CNN
+F 1 "Battery" H 3475 1650 50  0000 L CNN
+F 2 "battery:CR2032_BK-913" V 3375 1710 50  0001 C CNN
+F 3 "" V 3375 1710 50  0001 C CNN
+	1    3375 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR023
 U 1 1 5AB4F4D8
-P 2500 1850
-F 0 "#PWR023" H 2500 1600 50  0001 C CNN
-F 1 "GND" H 2500 1700 50  0000 C CNN
-F 2 "" H 2500 1850 50  0001 C CNN
-F 3 "" H 2500 1850 50  0001 C CNN
-	1    2500 1850
+P 3375 1850
+F 0 "#PWR023" H 3375 1600 50  0001 C CNN
+F 1 "GND" H 3375 1700 50  0000 C CNN
+F 2 "" H 3375 1850 50  0001 C CNN
+F 3 "" H 3375 1850 50  0001 C CNN
+	1    3375 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper JP1
 U 1 1 5AB4F754
-P 3225 1825
-F 0 "JP1" H 3225 1975 50  0000 C CNN
-F 1 "Jumper" H 3225 1745 50  0000 C CNN
-F 2 "jumper:Jumper_1x02_P2.54mm_THT" H 3225 1825 50  0001 C CNN
-F 3 "" H 3225 1825 50  0001 C CNN
-	1    3225 1825
+P 4100 1825
+F 0 "JP1" H 4100 1975 50  0000 C CNN
+F 1 "BATT CHECK" H 4100 1745 50  0000 C CNN
+F 2 "jumper:Jumper_1x02_P2.54mm_THT" H 4100 1825 50  0001 C CNN
+F 3 "" H 4100 1825 50  0001 C CNN
+	1    4100 1825
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -590,7 +590,7 @@ L Jumper JP2
 U 1 1 5AB5F5BA
 P 5425 2150
 F 0 "JP2" H 5425 2300 50  0000 C CNN
-F 1 "Jumper" H 5425 2070 50  0000 C CNN
+F 1 "NO SW" H 5425 2070 50  0000 C CNN
 F 2 "jumper:Jumper_1x02_P2.54mm_THT" H 5425 2150 50  0001 C CNN
 F 3 "" H 5425 2150 50  0001 C CNN
 	1    5425 2150
@@ -629,20 +629,9 @@ F 3 "" H 6000 950 50  0001 C CNN
 	1    6000 950 
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper JP3
-U 1 1 5AB5FC00
-P 6900 1250
-F 0 "JP3" H 6900 1400 50  0000 C CNN
-F 1 "Jumper" H 6900 1170 50  0000 C CNN
-F 2 "jumper:Jumper_1x02_P2.54mm_THT" H 6900 1250 50  0001 C CNN
-F 3 "" H 6900 1250 50  0001 C CNN
-	1    6900 1250
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5850 1375
 NoConn ~ 5850 1725
-Text Label 3525 1825 0    60   ~ 0
+Text Label 4400 1825 0    60   ~ 0
 BAT_LVL
 $Comp
 L D_Schottky_x2_KCom_AAK D1
@@ -721,7 +710,7 @@ F 3 "" H 6200 1975 50  0001 C CNN
 	1    6200 1975
 	1    0    0    -1  
 $EndComp
-Text Label 10875 6300 0    60   ~ 0
+Text Label 9075 6050 2    60   ~ 0
 VBUS_CHECK
 $Comp
 L TC2030-IDC P1
@@ -729,7 +718,7 @@ U 1 1 5AB737FC
 P 6525 6525
 F 0 "P1" H 6475 6325 40  0000 L CNN
 F 1 "TC2030-IDC" H 6525 6725 40  0000 C CNN
-F 2 "Tag-Connect:TC2030-NL_SMALL_AND_IDC_PDI_Extra_Pads" H 6525 6525 60  0001 C CNN
+F 2 "Tag-Connect:TC2030-NL_SMALL_AND_IDC_PDI" H 6525 6525 60  0001 C CNN
 F 3 "" H 6525 6525 60  0001 C CNN
 	1    6525 6525
 	1    0    0    -1  
@@ -827,10 +816,8 @@ Wire Wire Line
 	10400 4175 10400 4225
 Connection ~ 10400 4175
 Wire Wire Line
-	2925 1825 2925 1450
-Wire Wire Line
-	2500 1450 5000 1450
-Connection ~ 2925 1450
+	3800 1825 3800 1450
+Connection ~ 3800 1450
 Wire Wire Line
 	5000 1275 5000 1625
 Connection ~ 5000 1450
@@ -875,15 +862,6 @@ Wire Wire Line
 	7900 1875 7900 1650
 Wire Wire Line
 	7900 1650 8275 1650
-Wire Wire Line
-	6600 1250 6400 1250
-Wire Wire Line
-	6400 1250 6400 1525
-Connection ~ 6400 1525
-Wire Wire Line
-	7200 1250 7675 1250
-Wire Wire Line
-	7675 1250 7675 1875
 Wire Wire Line
 	6775 6425 6775 6275
 Wire Wire Line
@@ -1354,43 +1332,43 @@ Text Label 9075 6800 2    60   ~ 0
 D-
 Text Label 9075 6900 2    60   ~ 0
 D+
-Text Label 9075 5500 2    60   ~ 0
+Text Label 9075 6600 2    60   ~ 0
 KEY1
-Text Label 9075 5600 2    60   ~ 0
+Text Label 9075 6700 2    60   ~ 0
 KEY2
-Text Label 9075 5950 2    60   ~ 0
+Text Label 10875 5850 0    60   ~ 0
 KEY3
-Text Label 9075 6050 2    60   ~ 0
+Text Label 10875 5750 0    60   ~ 0
 KEY4
-Text Label 9075 6200 2    60   ~ 0
+Text Label 10875 5600 0    60   ~ 0
 KEY5
-Text Label 9075 6300 2    60   ~ 0
+Text Label 9075 6500 2    60   ~ 0
 KEY6
 Text Label 9075 6400 2    60   ~ 0
 KEY7
-Text Label 10875 5100 0    60   ~ 0
-KEY8
-Text Label 9075 6600 2    60   ~ 0
-KEY9
-Text Label 9075 6700 2    60   ~ 0
-KEY10
-Text Label 10875 4900 0    60   ~ 0
-KEY11
 Text Label 10875 5000 0    60   ~ 0
-KEY12
-Text Label 9075 6500 2    60   ~ 0
-KEY13
-Text Label 10875 5200 0    60   ~ 0
-KEY14
-Text Label 10875 5300 0    60   ~ 0
-KEY15
+KEY8
 Text Label 10875 5400 0    60   ~ 0
-KEY16
+KEY9
 Text Label 10875 5500 0    60   ~ 0
+KEY10
+Text Label 9075 6200 2    60   ~ 0
+KEY11
+Text Label 9075 6300 2    60   ~ 0
+KEY12
+Text Label 10875 4900 0    60   ~ 0
+KEY13
+Text Label 9075 5600 2    60   ~ 0
+KEY14
+Text Label 9075 5500 2    60   ~ 0
+KEY15
+Text Label 10875 5100 0    60   ~ 0
+KEY16
+Text Label 10875 5200 0    60   ~ 0
 KEY17
-Text Label 10875 5600 0    60   ~ 0
+Text Label 10875 5300 0    60   ~ 0
 KEY18
-NoConn ~ 10875 5750
+NoConn ~ 10875 6200
 $Comp
 L Fuse F1
 U 1 1 5AB75E08
@@ -1553,8 +1531,10 @@ Wire Wire Line
 	4200 7350 3050 7350
 Wire Wire Line
 	3050 7350 3050 7150
-Text Label 10875 5850 0    60   ~ 0
+Text Label 9075 5950 2    60   ~ 0
 BAT_LVL
-NoConn ~ 10875 6400
-NoConn ~ 10875 6500
+NoConn ~ 10875 5950
+NoConn ~ 10875 6050
+Wire Wire Line
+	3375 1450 5000 1450
 $EndSCHEMATC
