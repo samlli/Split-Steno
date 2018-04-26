@@ -1227,7 +1227,7 @@ U 1 1 5ABA2F3D
 P 6375 6625
 F 0 "J1" H 6175 7075 50  0000 L CNN
 F 1 "USB_OTG" H 6175 6975 50  0000 L CNN
-F 2 "keyboard_parts:USB_miniB" H 6525 6575 50  0001 C CNN
+F 2 "conn_usb:USB_MicroB_Amphenol_10118194-0001LF" H 6525 6575 50  0001 C CNN
 F 3 "" H 6525 6575 50  0001 C CNN
 	1    6375 6625
 	-1   0    0    -1  
@@ -1332,9 +1332,9 @@ Text Label 8200 5675 2    60   ~ 0
 D-
 Text Label 8200 5775 2    60   ~ 0
 D+
-Text Label 8200 5475 2    60   ~ 0
-KEY1
 Text Label 8200 5575 2    60   ~ 0
+KEY1
+Text Label 8200 5475 2    60   ~ 0
 KEY2
 Text Label 10000 4725 0    60   ~ 0
 KEY3
@@ -1342,9 +1342,9 @@ Text Label 10000 4625 0    60   ~ 0
 KEY4
 Text Label 10000 4475 0    60   ~ 0
 KEY5
-Text Label 8200 5375 2    60   ~ 0
-KEY6
 Text Label 8200 5275 2    60   ~ 0
+KEY6
+Text Label 8200 5375 2    60   ~ 0
 KEY7
 Text Label 10000 3875 0    60   ~ 0
 KEY8
