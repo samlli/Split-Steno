@@ -1332,9 +1332,9 @@ Text Label 8200 5675 2    60   ~ 0
 D-
 Text Label 8200 5775 2    60   ~ 0
 D+
-Text Label 8200 5475 2    60   ~ 0
-KEY1
 Text Label 8200 5575 2    60   ~ 0
+KEY1
+Text Label 8200 5475 2    60   ~ 0
 KEY2
 Text Label 10000 4725 0    60   ~ 0
 KEY3

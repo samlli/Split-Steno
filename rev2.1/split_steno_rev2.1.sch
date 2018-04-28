@@ -405,9 +405,9 @@ Text Label 10000 5675 0    60   ~ 0
 MISO
 Text Label 10000 5775 0    60   ~ 0
 SCK
-Text Label 10000 5275 0    60   ~ 0
-CE
 Text Label 10000 5375 0    60   ~ 0
+CE
+Text Label 10000 5275 0    60   ~ 0
 IRQ
 $Comp
 L Battery BT1
