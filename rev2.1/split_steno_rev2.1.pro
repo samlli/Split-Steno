@@ -1,4 +1,4 @@
-update=3/22/2018 2:23:53 PM
+update=4/30/2018 12:09:53 PM
 version=1
 last_client=eeschema
 [pcbnew]
@@ -75,3 +75,13 @@ LibName43=opto
 LibName44=atmel
 LibName45=contrib
 LibName46=valves
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
