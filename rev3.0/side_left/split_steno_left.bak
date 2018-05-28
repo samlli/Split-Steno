@@ -775,9 +775,9 @@ F 3 "" H 7075 3225 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
+	6625 3425 6675 3425
+Wire Wire Line
 	7225 2825 7225 2725
 Wire Wire Line
 	7225 2725 7400 2725
-Wire Wire Line
-	6625 3425 6675 3425
 $EndSCHEMATC
