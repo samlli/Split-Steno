@@ -537,7 +537,7 @@ F 3 "" H 6450 1875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6250 1675 2    60   ~ 0
-KEY17
+KEY16
 $Comp
 L SW_Push SW20
 U 1 1 5AFE29BA
@@ -550,7 +550,7 @@ F 3 "" H 6450 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6250 1900 2    60   ~ 0
-KEY18
+KEY17
 $Comp
 L SW_Push SW1
 U 1 1 5AFE2CAD
@@ -688,6 +688,51 @@ F 3 "" H 7400 2875 50  0001 C CNN
 	1    7400 2875
 	-1   0    0    1   
 $EndComp
+$Comp
+L VCC #PWR020
+U 1 1 5AFFE474
+P 7400 2725
+F 0 "#PWR020" H 7400 2575 50  0001 C CNN
+F 1 "VCC" H 7400 2875 50  0000 C CNN
+F 2 "" H 7400 2725 50  0001 C CNN
+F 3 "" H 7400 2725 50  0001 C CNN
+	1    7400 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR021
+U 1 1 5AFFE4E2
+P 7075 3225
+F 0 "#PWR021" H 7075 3075 50  0001 C CNN
+F 1 "VCC" H 7075 3375 50  0000 C CNN
+F 2 "" H 7075 3225 50  0001 C CNN
+F 3 "" H 7075 3225 50  0001 C CNN
+	1    7075 3225
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_02x04_Odd_Even J3
+U 1 1 5B14A652
+P 5500 2850
+F 0 "J3" H 5550 3050 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 5550 2550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 5500 2850 50  0001 C CNN
+F 3 "" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+Text Label 9775 3775 0    60   ~ 0
+IRQ
+Text Label 9775 3675 0    60   ~ 0
+CE
+Text Label 9775 3875 0    60   ~ 0
+CSN
+Text Label 9775 3975 0    60   ~ 0
+MOSI
+Text Label 9775 4075 0    60   ~ 0
+MISO
+Text Label 9775 4175 0    60   ~ 0
+SCK
 Wire Wire Line
 	8475 1875 8875 1875
 Wire Wire Line
@@ -752,32 +797,183 @@ Wire Wire Line
 	7975 3125 7075 3125
 Connection ~ 7400 3025
 Connection ~ 7225 3125
-$Comp
-L VCC #PWR020
-U 1 1 5AFFE474
-P 7400 2725
-F 0 "#PWR020" H 7400 2575 50  0001 C CNN
-F 1 "VCC" H 7400 2875 50  0000 C CNN
-F 2 "" H 7400 2725 50  0001 C CNN
-F 3 "" H 7400 2725 50  0001 C CNN
-	1    7400 2725
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR021
-U 1 1 5AFFE4E2
-P 7075 3225
-F 0 "#PWR021" H 7075 3075 50  0001 C CNN
-F 1 "VCC" H 7075 3375 50  0000 C CNN
-F 2 "" H 7075 3225 50  0001 C CNN
-F 3 "" H 7075 3225 50  0001 C CNN
-	1    7075 3225
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6625 3425 6675 3425
 Wire Wire Line
 	7225 2825 7225 2725
 Wire Wire Line
 	7225 2725 7400 2725
+Text Label 5300 2950 2    60   ~ 0
+SCK
+Text Label 5300 3050 2    60   ~ 0
+MISO
+Text Label 5300 2850 2    60   ~ 0
+CE
+Text Label 5800 2850 0    60   ~ 0
+CSN
+Text Label 5800 2950 0    60   ~ 0
+MOSI
+Text Label 5800 3050 0    60   ~ 0
+IRQ
+$Comp
+L GND #PWR022
+U 1 1 5B14B3CA
+P 5300 2750
+F 0 "#PWR022" H 5300 2500 50  0001 C CNN
+F 1 "GND" H 5300 2600 50  0000 C CNN
+F 2 "" H 5300 2750 50  0001 C CNN
+F 3 "" H 5300 2750 50  0001 C CNN
+	1    5300 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR023
+U 1 1 5B14B797
+P 5800 2750
+F 0 "#PWR023" H 5800 2600 50  0001 C CNN
+F 1 "VCC" H 5800 2900 50  0000 C CNN
+F 2 "" H 5800 2750 50  0001 C CNN
+F 3 "" H 5800 2750 50  0001 C CNN
+	1    5800 2750
+	1    0    0    -1  
+$EndComp
+Text Label 9775 3575 0    60   ~ 0
+KEY11
+Text Label 9775 3475 0    60   ~ 0
+KEY12
+Text Label 9775 2575 0    60   ~ 0
+KEY15
+Text Label 9775 2775 0    60   ~ 0
+KEY14
+Text Label 9775 2875 0    60   ~ 0
+KEY13
+Text Label 9775 2675 0    60   ~ 0
+KEY18
+Text Label 9775 3025 0    60   ~ 0
+KEY17
+Text Label 9775 3125 0    60   ~ 0
+KEY16
+Text Label 9775 3225 0    60   ~ 0
+UNDER_RGB
+Text Label 5775 3525 2    60   ~ 0
+UNDER_RGB
+Text Label 7975 3475 2    60   ~ 0
+KEY7
+Text Label 7975 3775 2    60   ~ 0
+KEY6
+Text Label 7975 3875 2    60   ~ 0
+KEY1
+Text Label 7975 3975 2    60   ~ 0
+KEY2
+Text Label 7975 3325 2    60   ~ 0
+KEY3
+Text Label 7975 2775 2    60   ~ 0
+KEY4
+Text Label 7975 3225 2    60   ~ 0
+KEY8
+Text Label 9775 2275 0    60   ~ 0
+KEY9
+Text Label 9775 2375 0    60   ~ 0
+KEY5
+Text Label 9775 2475 0    60   ~ 0
+KEY10
+Text Label 7975 2875 2    60   ~ 0
+EXTRA2
+Text Label 7975 3675 2    60   ~ 0
+EXTRA1
+NoConn ~ 7975 3575
+NoConn ~ 9775 2175
+NoConn ~ 9775 3325
+Text Label 5775 4100 2    60   ~ 0
+EXTRA1
+Text Label 5775 4500 2    60   ~ 0
+EXTRA2
+$Comp
+L Conn_01x03 J4
+U 1 1 5B15D849
+P 5975 3525
+F 0 "J4" H 5975 3725 50  0000 C CNN
+F 1 "Conn_01x03" H 5975 3325 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5975 3525 50  0001 C CNN
+F 3 "" H 5975 3525 50  0001 C CNN
+	1    5975 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR024
+U 1 1 5B15DA49
+P 5775 3425
+F 0 "#PWR024" H 5775 3275 50  0001 C CNN
+F 1 "VCC" H 5775 3575 50  0000 C CNN
+F 2 "" H 5775 3425 50  0001 C CNN
+F 3 "" H 5775 3425 50  0001 C CNN
+	1    5775 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 5B15DAC3
+P 5775 3625
+F 0 "#PWR025" H 5775 3375 50  0001 C CNN
+F 1 "GND" H 5775 3475 50  0000 C CNN
+F 2 "" H 5775 3625 50  0001 C CNN
+F 3 "" H 5775 3625 50  0001 C CNN
+	1    5775 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x03 J5
+U 1 1 5B15DE45
+P 5975 4100
+F 0 "J5" H 5975 4300 50  0000 C CNN
+F 1 "Conn_01x03" H 5975 3900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5975 4100 50  0001 C CNN
+F 3 "" H 5975 4100 50  0001 C CNN
+	1    5975 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR026
+U 1 1 5B15E01D
+P 5775 4000
+F 0 "#PWR026" H 5775 3850 50  0001 C CNN
+F 1 "VCC" H 5775 4150 50  0000 C CNN
+F 2 "" H 5775 4000 50  0001 C CNN
+F 3 "" H 5775 4000 50  0001 C CNN
+	1    5775 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 5B15E097
+P 5775 4200
+F 0 "#PWR027" H 5775 3950 50  0001 C CNN
+F 1 "GND" H 5775 4050 50  0000 C CNN
+F 2 "" H 5775 4200 50  0001 C CNN
+F 3 "" H 5775 4200 50  0001 C CNN
+	1    5775 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x02 J6
+U 1 1 5B15E1F9
+P 5975 4500
+F 0 "J6" H 5975 4600 50  0000 C CNN
+F 1 "Conn_01x02" H 5975 4300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5975 4500 50  0001 C CNN
+F 3 "" H 5975 4500 50  0001 C CNN
+	1    5975 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 5B15E563
+P 5775 4600
+F 0 "#PWR028" H 5775 4350 50  0001 C CNN
+F 1 "GND" H 5775 4450 50  0000 C CNN
+F 2 "" H 5775 4600 50  0001 C CNN
+F 3 "" H 5775 4600 50  0001 C CNN
+	1    5775 4600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
