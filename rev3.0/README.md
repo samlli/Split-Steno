@@ -2,7 +2,7 @@
 
 **Features:**
 
-Integrated ATxmega controller  
-SMD only  
-No Diodes   
-Wireless NRF
+Minimized PCB footprint  
+Lite version with core functionality only  
+NRF and RGB moved to breakouts  
+Routed GND with 0 vias

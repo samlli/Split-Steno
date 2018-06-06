@@ -25,22 +25,30 @@ Wired & coin cell battery support
 Trackpoint support  
 KeyPlus firmware
 
+**rev3.x Features:**
+Minimized PCB layout
+Removed mirrored compat
+
 ## Build Guide
 
 **required parts**
 
 Quantities are for a single PCB, double required quantities if you build two halves!
 
-- 1x Arduino Pro Micro
+- 1x Atxmega32a4u
 - 17-18x MX / Alps switches
 - 0-1x PCB mount stabilizer
-- 17-18x 1n4148 diodes
 - 1x PJ-320A TRRS jack
-- 1x MJTP1117 switch
+- 1x Hirose 5S8 USB Mini B
+- 1x Fuse
+- 4x 0.1uF Capacitors
+- 1x 10uF Capacitor
+- 2x 4.7k Resistor
+- 1x Voltage Regulator (component name needed)
 
 ## Setup
 
-Fancy QMK stuff goes here I guess
+Fancy K+ stuff goes here I guess
 
 ## Why?
 
