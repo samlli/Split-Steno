@@ -63,10 +63,10 @@ U 1 1 5AFE0641
 P 6775 4075
 F 0 "J1" H 6575 4525 50  0000 L CNN
 F 1 "USB_B" H 6575 4425 50  0000 L CNN
-F 2 "keyboard_parts:USB_miniB_hirose_5S8" H 6925 4025 50  0001 C CNN
+F 2 "lib_fp:USB_miniB_hirose_5S8" H 6925 4025 50  0001 C CNN
 F 3 "" H 6925 4025 50  0001 C CNN
 	1    6775 4075
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Audio-Jack-4 J2
@@ -74,10 +74,10 @@ U 1 1 5AFE070A
 P 6875 3025
 F 0 "J2" H 6825 3105 50  0000 C CNN
 F 1 "Audio-Jack-4" H 6995 2655 50  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 7125 3125 50  0001 C CNN
+F 2 "lib_fp:TRRS-PJ-320A" H 7125 3125 50  0001 C CNN
 F 3 "" H 7125 3125 50  0001 C CNN
 	1    6875 3025
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L TC2030-IDC P1
@@ -85,10 +85,10 @@ U 1 1 5AFE0767
 P 9625 1075
 F 0 "P1" H 9575 875 40  0000 L CNN
 F 1 "TC2030-IDC" H 9625 1275 40  0000 C CNN
-F 2 "Tag-Connect:TC2030-NL_SMALL_AND_IDC_PDI" H 9625 1075 60  0001 C CNN
+F 2 "lib_fp:TC2030-NL_SMALL_AND_IDC_PDI" H 9625 1075 60  0001 C CNN
 F 3 "" H 9625 1075 60  0001 C CNN
 	1    9625 1075
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L MIC550X U1
@@ -96,10 +96,10 @@ U 1 1 5AFE0944
 P 7925 1350
 F 0 "U1" H 7725 1650 60  0000 C CNN
 F 1 "MIC550X" H 7925 1050 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 7925 1350 60  0001 C CNN
+F 2 "lib_fp:SOT-23-5_HandSoldering" H 7925 1350 60  0001 C CNN
 F 3 "" H 7925 1350 60  0001 C CNN
 	1    7925 1350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L ATXMEGA-A4U-EPAD U2
@@ -107,10 +107,10 @@ U 1 1 5AFE09D8
 P 8875 3175
 F 0 "U2" H 8125 4375 50  0000 L BNN
 F 1 "ATXMEGA-A4U-EPAD" H 9075 1925 50  0000 L BNN
-F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 8875 3175 50  0001 C CIN
+F 2 "lib_fp:TQFP-44_10x10mm_Pitch0.8mm" H 8875 3175 50  0001 C CIN
 F 3 "" H 8875 3175 50  0001 C CNN
 	1    8875 3175
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C1
@@ -118,10 +118,10 @@ U 1 1 5AFE0A9B
 P 8500 1350
 F 0 "C1" H 8525 1450 50  0000 L CNN
 F 1 "10uF" H 8525 1250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8538 1200 50  0001 C CNN
+F 2 "lib_fp:C_0603_HandSoldering" H 8538 1200 50  0001 C CNN
 F 3 "" H 8500 1350 50  0001 C CNN
 	1    8500 1350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR01
@@ -132,7 +132,7 @@ F 1 "GND" H 7475 1350 50  0000 C CNN
 F 2 "" H 7475 1500 50  0001 C CNN
 F 3 "" H 7475 1500 50  0001 C CNN
 	1    7475 1500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +5V #PWR02
@@ -143,7 +143,7 @@ F 1 "+5V" H 7475 1340 50  0000 C CNN
 F 2 "" H 7475 1200 50  0001 C CNN
 F 3 "" H 7475 1200 50  0001 C CNN
 	1    7475 1200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR03
@@ -154,7 +154,7 @@ F 1 "GND" H 8500 1350 50  0000 C CNN
 F 2 "" H 8500 1500 50  0001 C CNN
 F 3 "" H 8500 1500 50  0001 C CNN
 	1    8500 1500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR04
@@ -165,7 +165,7 @@ F 1 "GND" H 9875 1025 50  0000 C CNN
 F 2 "" H 9875 1175 50  0001 C CNN
 F 3 "" H 9875 1175 50  0001 C CNN
 	1    9875 1175
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 9875 1075
 $Comp
@@ -176,8 +176,8 @@ F 0 "#PWR05" H 9875 825 50  0001 C CNN
 F 1 "VCC" H 9875 1125 50  0000 C CNN
 F 2 "" H 9875 975 50  0001 C CNN
 F 3 "" H 9875 975 50  0001 C CNN
-	1    9875 975 
-	1    0    0    -1  
+	1    9875 975
+	1    0    0    -1
 $EndComp
 Text Label 9375 975  2    60   ~ 0
 PDI
@@ -193,7 +193,7 @@ F 1 "VCC" H 8775 1250 50  0000 C CNN
 F 2 "" H 8775 1100 50  0001 C CNN
 F 3 "" H 8775 1100 50  0001 C CNN
 	1    8775 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C2
@@ -201,10 +201,10 @@ U 1 1 5AFE1033
 P 9075 1625
 F 0 "C2" H 9100 1725 50  0000 L CNN
 F 1 "0.1uF" H 9100 1525 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9113 1475 50  0001 C CNN
+F 2 "lib_fp:C_0603_HandSoldering" H 9113 1475 50  0001 C CNN
 F 3 "" H 9075 1625 50  0001 C CNN
 	1    9075 1625
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR07
@@ -215,7 +215,7 @@ F 1 "GND" H 9075 1625 50  0000 C CNN
 F 2 "" H 9075 1775 50  0001 C CNN
 F 3 "" H 9075 1775 50  0001 C CNN
 	1    9075 1775
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C3
@@ -223,10 +223,10 @@ U 1 1 5AFE107D
 P 9325 1625
 F 0 "C3" H 9350 1725 50  0000 L CNN
 F 1 "0.1uF" H 9350 1525 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9363 1475 50  0001 C CNN
+F 2 "lib_fp:C_0603_HandSoldering" H 9363 1475 50  0001 C CNN
 F 3 "" H 9325 1625 50  0001 C CNN
 	1    9325 1625
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR08
@@ -237,7 +237,7 @@ F 1 "GND" H 9325 1625 50  0000 C CNN
 F 2 "" H 9325 1775 50  0001 C CNN
 F 3 "" H 9325 1775 50  0001 C CNN
 	1    9325 1775
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C4
@@ -245,10 +245,10 @@ U 1 1 5AFE10BE
 P 9575 1625
 F 0 "C4" H 9600 1725 50  0000 L CNN
 F 1 "0.1uF" H 9600 1525 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9613 1475 50  0001 C CNN
+F 2 "lib_fp:C_0603_HandSoldering" H 9613 1475 50  0001 C CNN
 F 3 "" H 9575 1625 50  0001 C CNN
 	1    9575 1625
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR09
@@ -259,7 +259,7 @@ F 1 "GND" H 9575 1625 50  0000 C CNN
 F 2 "" H 9575 1775 50  0001 C CNN
 F 3 "" H 9575 1775 50  0001 C CNN
 	1    9575 1775
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C5
@@ -267,10 +267,10 @@ U 1 1 5AFE112E
 P 9825 1625
 F 0 "C5" H 9850 1725 50  0000 L CNN
 F 1 "0.1uF" H 9850 1525 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9863 1475 50  0001 C CNN
+F 2 "lib_fp:C_0603_HandSoldering" H 9863 1475 50  0001 C CNN
 F 3 "" H 9825 1625 50  0001 C CNN
 	1    9825 1625
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR010
@@ -281,7 +281,7 @@ F 1 "GND" H 9825 1625 50  0000 C CNN
 F 2 "" H 9825 1775 50  0001 C CNN
 F 3 "" H 9825 1775 50  0001 C CNN
 	1    9825 1775
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SW_Push SW5
@@ -289,10 +289,10 @@ U 1 1 5AFE124A
 P 4225 1225
 F 0 "SW5" H 4275 1325 50  0000 L CNN
 F 1 "SW_Push" H 4225 1165 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4225 1425 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 4225 1425 50  0001 C CNN
 F 3 "" H 4225 1425 50  0001 C CNN
 	1    4225 1225
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +5V #PWR011
@@ -303,7 +303,7 @@ F 1 "+5V" H 7375 4015 50  0000 C CNN
 F 2 "" H 7375 3875 50  0001 C CNN
 F 3 "" H 7375 3875 50  0001 C CNN
 	1    7375 3875
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR012
@@ -314,7 +314,7 @@ F 1 "GND" H 6775 4325 50  0000 C CNN
 F 2 "" H 6775 4475 50  0001 C CNN
 F 3 "" H 6775 4475 50  0001 C CNN
 	1    6775 4475
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR013
@@ -325,7 +325,7 @@ F 1 "GND" H 9025 4425 50  0000 C CNN
 F 2 "" H 9025 4575 50  0001 C CNN
 F 3 "" H 9025 4575 50  0001 C CNN
 	1    9025 4575
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 7975 4175 2    60   ~ 0
 D+
@@ -338,10 +338,10 @@ U 1 1 5AFE1E18
 P 7225 3875
 F 0 "F1" V 7305 3875 50  0000 C CNN
 F 1 "Fuse" V 7150 3875 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 7155 3875 50  0001 C CNN
+F 2 "lib_fp:Fuse_SMD1206_HandSoldering" V 7155 3875 50  0001 C CNN
 F 3 "" H 7225 3875 50  0001 C CNN
 	1    7225 3875
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR014
@@ -352,7 +352,7 @@ F 1 "GND" H 6625 3275 50  0000 C CNN
 F 2 "" H 6625 3425 50  0001 C CNN
 F 3 "" H 6625 3425 50  0001 C CNN
 	1    6625 3425
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 4025 1225 2    60   ~ 0
 KEY5
@@ -362,10 +362,10 @@ U 1 1 5AFE2530
 P 4225 1450
 F 0 "SW6" H 4275 1550 50  0000 L CNN
 F 1 "SW_Push" H 4225 1390 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4225 1650 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 4225 1650 50  0001 C CNN
 F 3 "" H 4225 1650 50  0001 C CNN
 	1    4225 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4025 1450 2    60   ~ 0
 KEY6
@@ -375,10 +375,10 @@ U 1 1 5AFE25DE
 P 4225 1675
 F 0 "SW7" H 4275 1775 50  0000 L CNN
 F 1 "SW_Push" H 4225 1615 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4225 1875 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 4225 1875 50  0001 C CNN
 F 3 "" H 4225 1875 50  0001 C CNN
 	1    4225 1675
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4025 1675 2    60   ~ 0
 KEY7
@@ -388,10 +388,10 @@ U 1 1 5AFE25E6
 P 4225 1900
 F 0 "SW8" H 4275 2000 50  0000 L CNN
 F 1 "SW_Push" H 4225 1840 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4225 2100 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 4225 2100 50  0001 C CNN
 F 3 "" H 4225 2100 50  0001 C CNN
 	1    4225 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4025 1900 2    60   ~ 0
 KEY8
@@ -401,10 +401,10 @@ U 1 1 5AFE272C
 P 4975 1225
 F 0 "SW9" H 5025 1325 50  0000 L CNN
 F 1 "SW_Push" H 4975 1165 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4975 1425 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 4975 1425 50  0001 C CNN
 F 3 "" H 4975 1425 50  0001 C CNN
 	1    4975 1225
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4775 1225 2    60   ~ 0
 KEY9
@@ -414,10 +414,10 @@ U 1 1 5AFE2734
 P 4975 1450
 F 0 "SW10" H 5025 1550 50  0000 L CNN
 F 1 "SW_Push" H 4975 1390 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4975 1650 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 4975 1650 50  0001 C CNN
 F 3 "" H 4975 1650 50  0001 C CNN
 	1    4975 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4775 1450 2    60   ~ 0
 KEY10
@@ -427,10 +427,10 @@ U 1 1 5AFE273C
 P 4975 1675
 F 0 "SW11" H 5025 1775 50  0000 L CNN
 F 1 "SW_Push" H 4975 1615 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4975 1875 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 4975 1875 50  0001 C CNN
 F 3 "" H 4975 1875 50  0001 C CNN
 	1    4975 1675
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4775 1675 2    60   ~ 0
 KEY11
@@ -440,10 +440,10 @@ U 1 1 5AFE2744
 P 4975 1900
 F 0 "SW12" H 5025 2000 50  0000 L CNN
 F 1 "SW_Push" H 4975 1840 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4975 2100 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 4975 2100 50  0001 C CNN
 F 3 "" H 4975 2100 50  0001 C CNN
 	1    4975 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4775 1900 2    60   ~ 0
 KEY12
@@ -453,10 +453,10 @@ U 1 1 5AFE2982
 P 5700 1225
 F 0 "SW13" H 5750 1325 50  0000 L CNN
 F 1 "SW_Push" H 5700 1165 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5700 1425 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 5700 1425 50  0001 C CNN
 F 3 "" H 5700 1425 50  0001 C CNN
 	1    5700 1225
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 5500 1225 2    60   ~ 0
 KEY13
@@ -466,10 +466,10 @@ U 1 1 5AFE298A
 P 5700 1450
 F 0 "SW14" H 5750 1550 50  0000 L CNN
 F 1 "SW_Push" H 5700 1390 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5700 1650 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 5700 1650 50  0001 C CNN
 F 3 "" H 5700 1650 50  0001 C CNN
 	1    5700 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 5500 1450 2    60   ~ 0
 KEY14
@@ -479,10 +479,10 @@ U 1 1 5AFE2992
 P 5700 1675
 F 0 "SW15" H 5750 1775 50  0000 L CNN
 F 1 "SW_Push" H 5700 1615 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5700 1875 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 5700 1875 50  0001 C CNN
 F 3 "" H 5700 1875 50  0001 C CNN
 	1    5700 1675
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 5500 1675 2    60   ~ 0
 KEY15
@@ -492,10 +492,10 @@ U 1 1 5AFE299A
 P 5700 1900
 F 0 "SW16" H 5750 2000 50  0000 L CNN
 F 1 "SW_Push" H 5700 1840 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5700 2100 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 5700 2100 50  0001 C CNN
 F 3 "" H 5700 2100 50  0001 C CNN
 	1    5700 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 5500 1900 2    60   ~ 0
 KEY16
@@ -505,10 +505,10 @@ U 1 1 5AFE29A2
 P 6450 1225
 F 0 "SW17" H 6500 1325 50  0000 L CNN
 F 1 "SW_Push" H 6450 1165 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6450 1425 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 6450 1425 50  0001 C CNN
 F 3 "" H 6450 1425 50  0001 C CNN
 	1    6450 1225
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 6250 1225 2    60   ~ 0
 KEY17
@@ -518,10 +518,10 @@ U 1 1 5AFE29AA
 P 6450 1450
 F 0 "SW18" H 6500 1550 50  0000 L CNN
 F 1 "SW_Push" H 6450 1390 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6450 1650 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 6450 1650 50  0001 C CNN
 F 3 "" H 6450 1650 50  0001 C CNN
 	1    6450 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 6250 1450 2    60   ~ 0
 KEY18
@@ -531,10 +531,10 @@ U 1 1 5AFE29B2
 P 6450 1675
 F 0 "SW19" H 6500 1775 50  0000 L CNN
 F 1 "SW_Push" H 6450 1615 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 6450 1875 50  0001 C CNN
+F 2 "lib_fp:MX-2U-NoLED" H 6450 1875 50  0001 C CNN
 F 3 "" H 6450 1875 50  0001 C CNN
 	1    6450 1675
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 6250 1675 2    60   ~ 0
 KEY16
@@ -544,10 +544,10 @@ U 1 1 5AFE29BA
 P 6450 1900
 F 0 "SW20" H 6500 2000 50  0000 L CNN
 F 1 "SW_Push" H 6450 1840 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 6450 2100 50  0001 C CNN
+F 2 "lib_fp:MX-2U-NoLED" H 6450 2100 50  0001 C CNN
 F 3 "" H 6450 2100 50  0001 C CNN
 	1    6450 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 6250 1900 2    60   ~ 0
 KEY17
@@ -557,10 +557,10 @@ U 1 1 5AFE2CAD
 P 3500 1225
 F 0 "SW1" H 3550 1325 50  0000 L CNN
 F 1 "SW_Push" H 3500 1165 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3500 1425 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 3500 1425 50  0001 C CNN
 F 3 "" H 3500 1425 50  0001 C CNN
 	1    3500 1225
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 3300 1225 2    60   ~ 0
 KEY1
@@ -570,10 +570,10 @@ U 1 1 5AFE2CB5
 P 3500 1450
 F 0 "SW2" H 3550 1550 50  0000 L CNN
 F 1 "SW_Push" H 3500 1390 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3500 1650 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 3500 1650 50  0001 C CNN
 F 3 "" H 3500 1650 50  0001 C CNN
 	1    3500 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 3300 1450 2    60   ~ 0
 KEY2
@@ -583,10 +583,10 @@ U 1 1 5AFE2CBD
 P 3500 1675
 F 0 "SW3" H 3550 1775 50  0000 L CNN
 F 1 "SW_Push" H 3500 1615 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3500 1875 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 3500 1875 50  0001 C CNN
 F 3 "" H 3500 1875 50  0001 C CNN
 	1    3500 1675
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 3300 1675 2    60   ~ 0
 KEY3
@@ -596,10 +596,10 @@ U 1 1 5AFE2CC5
 P 3500 1900
 F 0 "SW4" H 3550 2000 50  0000 L CNN
 F 1 "SW_Push" H 3500 1840 50  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3500 2100 50  0001 C CNN
+F 2 "lib_fp:MX-1U-NoLED" H 3500 2100 50  0001 C CNN
 F 3 "" H 3500 2100 50  0001 C CNN
 	1    3500 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 3300 1900 2    60   ~ 0
 KEY4
@@ -612,7 +612,7 @@ F 1 "GND" H 6650 1750 50  0000 C CNN
 F 2 "" H 6650 1900 50  0001 C CNN
 F 3 "" H 6650 1900 50  0001 C CNN
 	1    6650 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR016
@@ -623,7 +623,7 @@ F 1 "GND" H 5900 1750 50  0000 C CNN
 F 2 "" H 5900 1900 50  0001 C CNN
 F 3 "" H 5900 1900 50  0001 C CNN
 	1    5900 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR017
@@ -634,7 +634,7 @@ F 1 "GND" H 5175 1750 50  0000 C CNN
 F 2 "" H 5175 1900 50  0001 C CNN
 F 3 "" H 5175 1900 50  0001 C CNN
 	1    5175 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR018
@@ -645,7 +645,7 @@ F 1 "GND" H 4425 1750 50  0000 C CNN
 F 2 "" H 4425 1900 50  0001 C CNN
 F 3 "" H 4425 1900 50  0001 C CNN
 	1    4425 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR019
@@ -656,7 +656,7 @@ F 1 "GND" H 3700 1750 50  0000 C CNN
 F 2 "" H 3700 1900 50  0001 C CNN
 F 3 "" H 3700 1900 50  0001 C CNN
 	1    3700 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 7975 2275 2    60   ~ 0
 RST
@@ -672,10 +672,10 @@ U 1 1 5AFF7738
 P 7225 2975
 F 0 "R1" V 7305 2975 50  0000 C CNN
 F 1 "4.7k" V 7225 2975 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7155 2975 50  0001 C CNN
+F 2 "lib_fp:R_0603_HandSoldering" V 7155 2975 50  0001 C CNN
 F 3 "" H 7225 2975 50  0001 C CNN
 	1    7225 2975
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L R R2
@@ -683,10 +683,10 @@ U 1 1 5AFF7CE1
 P 7400 2875
 F 0 "R2" V 7480 2875 50  0000 C CNN
 F 1 "4.7k" V 7400 2875 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 2875 50  0001 C CNN
+F 2 "lib_fp:R_0603_HandSoldering" V 7330 2875 50  0001 C CNN
 F 3 "" H 7400 2875 50  0001 C CNN
 	1    7400 2875
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L VCC #PWR020
@@ -697,7 +697,7 @@ F 1 "VCC" H 7400 2875 50  0000 C CNN
 F 2 "" H 7400 2725 50  0001 C CNN
 F 3 "" H 7400 2725 50  0001 C CNN
 	1    7400 2725
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR021
@@ -708,7 +708,7 @@ F 1 "VCC" H 7075 3375 50  0000 C CNN
 F 2 "" H 7075 3225 50  0001 C CNN
 F 3 "" H 7075 3225 50  0001 C CNN
 	1    7075 3225
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Conn_02x04_Odd_Even J3
@@ -716,10 +716,10 @@ U 1 1 5B14A652
 P 5500 2850
 F 0 "J3" H 5550 3050 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 5550 2550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 5500 2850 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_2x04_Pitch2.54mm" H 5500 2850 50  0001 C CNN
 F 3 "" H 5500 2850 50  0001 C CNN
 	1    5500 2850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 9775 3775 0    60   ~ 0
 IRQ
@@ -824,7 +824,7 @@ F 1 "GND" H 5300 2600 50  0000 C CNN
 F 2 "" H 5300 2750 50  0001 C CNN
 F 3 "" H 5300 2750 50  0001 C CNN
 	1    5300 2750
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L VCC #PWR023
@@ -835,7 +835,7 @@ F 1 "VCC" H 5800 2900 50  0000 C CNN
 F 2 "" H 5800 2750 50  0001 C CNN
 F 3 "" H 5800 2750 50  0001 C CNN
 	1    5800 2750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 9775 3575 0    60   ~ 0
 KEY11
@@ -894,10 +894,10 @@ U 1 1 5B15D849
 P 5975 3525
 F 0 "J4" H 5975 3725 50  0000 C CNN
 F 1 "Conn_01x03" H 5975 3325 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5975 3525 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x03_Pitch2.54mm" H 5975 3525 50  0001 C CNN
 F 3 "" H 5975 3525 50  0001 C CNN
 	1    5975 3525
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR024
@@ -908,7 +908,7 @@ F 1 "VCC" H 5775 3575 50  0000 C CNN
 F 2 "" H 5775 3425 50  0001 C CNN
 F 3 "" H 5775 3425 50  0001 C CNN
 	1    5775 3425
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR025
@@ -919,7 +919,7 @@ F 1 "GND" H 5775 3475 50  0000 C CNN
 F 2 "" H 5775 3625 50  0001 C CNN
 F 3 "" H 5775 3625 50  0001 C CNN
 	1    5775 3625
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Conn_01x03 J5
@@ -927,10 +927,10 @@ U 1 1 5B15DE45
 P 5975 4100
 F 0 "J5" H 5975 4300 50  0000 C CNN
 F 1 "Conn_01x03" H 5975 3900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5975 4100 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x03_Pitch2.54mm" H 5975 4100 50  0001 C CNN
 F 3 "" H 5975 4100 50  0001 C CNN
 	1    5975 4100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR026
@@ -941,7 +941,7 @@ F 1 "VCC" H 5775 4150 50  0000 C CNN
 F 2 "" H 5775 4000 50  0001 C CNN
 F 3 "" H 5775 4000 50  0001 C CNN
 	1    5775 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR027
@@ -952,7 +952,7 @@ F 1 "GND" H 5775 4050 50  0000 C CNN
 F 2 "" H 5775 4200 50  0001 C CNN
 F 3 "" H 5775 4200 50  0001 C CNN
 	1    5775 4200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Conn_01x02 J6
@@ -960,10 +960,10 @@ U 1 1 5B15E1F9
 P 5975 4500
 F 0 "J6" H 5975 4600 50  0000 C CNN
 F 1 "Conn_01x02" H 5975 4300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5975 4500 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x02_Pitch2.54mm" H 5975 4500 50  0001 C CNN
 F 3 "" H 5975 4500 50  0001 C CNN
 	1    5975 4500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR028
@@ -974,6 +974,6 @@ F 1 "GND" H 5775 4450 50  0000 C CNN
 F 2 "" H 5775 4600 50  0001 C CNN
 F 3 "" H 5775 4600 50  0001 C CNN
 	1    5775 4600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $EndSCHEMATC
