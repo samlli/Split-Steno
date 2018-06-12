@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:split_steno_right
+LIBS:split_steno_right-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -619,10 +620,6 @@ Text Label 7975 2275 2    60   ~ 0
 RST
 Text Label 7975 2375 2    60   ~ 0
 PDI
-Text Label 9775 3475 0    60   ~ 0
-SDA
-Text Label 9775 3575 0    60   ~ 0
-SCL
 $Comp
 L R R1
 U 1 1 5AFF7738
@@ -790,57 +787,6 @@ F 3 "" H 5800 2750 50  0001 C CNN
 	1    5800 2750
 	1    0    0    -1  
 $EndComp
-Text Label 10075 3600 0    60   ~ 0
-KEY11
-Text Label 10075 3500 0    60   ~ 0
-KEY12
-Text Label 9775 2575 0    60   ~ 0
-KEY15
-Text Label 9775 2775 0    60   ~ 0
-KEY14
-Text Label 9775 2875 0    60   ~ 0
-KEY13
-Text Label 9775 2675 0    60   ~ 0
-KEY18
-Text Label 9775 3025 0    60   ~ 0
-KEY17
-Text Label 9775 3125 0    60   ~ 0
-KEY16
-Text Label 9775 3225 0    60   ~ 0
-UNDER_RGB
-Text Label 5775 3525 2    60   ~ 0
-UNDER_RGB
-Text Label 7975 3475 2    60   ~ 0
-KEY7
-Text Label 7975 3775 2    60   ~ 0
-KEY6
-Text Label 7975 3875 2    60   ~ 0
-KEY1
-Text Label 7975 3975 2    60   ~ 0
-KEY2
-Text Label 7975 3325 2    60   ~ 0
-KEY3
-Text Label 7975 2775 2    60   ~ 0
-KEY4
-Text Label 7975 3225 2    60   ~ 0
-KEY8
-Text Label 9775 2275 0    60   ~ 0
-KEY9
-Text Label 9775 2375 0    60   ~ 0
-KEY5
-Text Label 9775 2475 0    60   ~ 0
-KEY10
-Text Label 7975 2875 2    60   ~ 0
-EXTRA2
-Text Label 7975 3675 2    60   ~ 0
-EXTRA1
-NoConn ~ 7975 3575
-NoConn ~ 9775 2175
-NoConn ~ 9775 3325
-Text Label 5775 4100 2    60   ~ 0
-EXTRA1
-Text Label 5775 4500 2    60   ~ 0
-EXTRA2
 $Comp
 L Conn_01x03 J4
 U 1 1 5B15D849
@@ -929,12 +875,20 @@ F 3 "" H 5775 4600 50  0001 C CNN
 	1    5775 4600
 	0    1    1    0   
 $EndComp
-Text Label 7550 3025 0    60   ~ 0
+Text Label 7975 3025 2    60   ~ 0
 SDA
-Text Label 7550 3125 0    60   ~ 0
+Text Label 7975 3125 2    60   ~ 0
 SCL
 Wire Wire Line
-	7075 3025 7550 3025
+	7075 3025 7975 3025
 Wire Wire Line
-	7075 3125 7550 3125
+	7075 3125 7975 3125
+Text Label 9775 3475 0    60   ~ 0
+KEY14
+Text Label 9775 3575 0    60   ~ 0
+KEY15
+Text Label 7975 3325 2    60   ~ 0
+KEY2
+Text Label 7975 2775 2    60   ~ 0
+KEY1
 $EndSCHEMATC

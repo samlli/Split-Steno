@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:split_steno_right
+LIBS:split_steno_right-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -288,7 +289,6 @@ Text Label 7975 4175 2    60   ~ 0
 D+
 Text Label 7975 4075 2    60   ~ 0
 D-
-NoConn ~ 6675 4475
 $Comp
 L Fuse F1
 U 1 1 5AFE1E18
@@ -619,10 +619,6 @@ Text Label 7975 2275 2    60   ~ 0
 RST
 Text Label 7975 2375 2    60   ~ 0
 PDI
-Text Label 9775 3475 0    60   ~ 0
-SDA
-Text Label 9775 3575 0    60   ~ 0
-SCL
 $Comp
 L R R1
 U 1 1 5AFF7738
@@ -790,7 +786,6 @@ F 3 "" H 5800 2750 50  0001 C CNN
 	1    5800 2750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7975 3575
 $Comp
 L Conn_01x03 J4
 U 1 1 5B15D849
@@ -879,12 +874,22 @@ F 3 "" H 5775 4600 50  0001 C CNN
 	1    5775 4600
 	0    1    1    0   
 $EndComp
-Text Label 7550 3025 0    60   ~ 0
+Text Label 7975 3025 2    60   ~ 0
 SDA
-Text Label 7550 3125 0    60   ~ 0
+Text Label 7975 3125 2    60   ~ 0
 SCL
 Wire Wire Line
-	7075 3025 7550 3025
+	7075 3025 7975 3025
 Wire Wire Line
-	7075 3125 7550 3125
+	7075 3125 7975 3125
+Text Label 9775 3475 0    60   ~ 0
+KEY14
+Text Label 9775 3575 0    60   ~ 0
+KEY15
+Text Label 7975 3325 2    60   ~ 0
+KEY2
+Text Label 7975 2775 2    60   ~ 0
+KEY1
+Wire Wire Line
+	6675 4475 6775 4475
 $EndSCHEMATC
