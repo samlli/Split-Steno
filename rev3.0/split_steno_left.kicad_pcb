@@ -190,7 +190,7 @@
     (add_net VCC)
   )
 
-  (module airi_logo:airi_icon-7.6 (layer B.Cu) (tedit 0) (tstamp 5B1606A5)
+  (module lib_fp:airi_icon-7.6 (layer B.Cu) (tedit 0) (tstamp 5B1606A5)
     (at 80.93 73.84 180)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
@@ -281,7 +281,7 @@
       (xy 1.69672 -0.335006) (xy 1.69672 -1.69672)) (layer B.Mask) (width 0.01))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FC4) (tstamp 5AFF82F3)
+  (module lib_fp:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FC4) (tstamp 5AFF82F3)
     (at 128.6 94.1)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -296,7 +296,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FCB) (tstamp 5AFF832B)
+  (module lib_fp:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FCB) (tstamp 5AFF832B)
     (at 109.5 94.05)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -311,7 +311,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FBD) (tstamp 5AFF833A)
+  (module lib_fp:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FBD) (tstamp 5AFF833A)
     (at 128.65 54.75)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -326,7 +326,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FB6) (tstamp 5AFF8354)
+  (module lib_fp:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FB6) (tstamp 5AFF8354)
     (at 109.6 54.75)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -341,7 +341,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FA4) (tstamp 5AFF83A9)
+  (module lib_fp:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FA4) (tstamp 5AFF83A9)
     (at 61.9 81.1)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -356,7 +356,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FB0) (tstamp 5AFF83B6)
+  (module lib_fp:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5AFF7FB0) (tstamp 5AFF83B6)
     (at 61.9 47.5)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
